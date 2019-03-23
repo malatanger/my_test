@@ -53,4 +53,4 @@ if __name__ == "__main__":
     L = Log()
     L.info("sdfasd")
     L.error("3334242")
-    L.warning("李琳大傻逼")
+    L.warning("1111")
