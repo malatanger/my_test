@@ -1,4 +1,4 @@
-# -*- coding: utf-8 -*-
+# coding:utf-8
 from selenium import webdriver
 from selenium.webdriver.support.wait import WebDriverWait
 from selenium.webdriver.common.by import By
@@ -7,27 +7,39 @@ import time
 from config import screenshot_path
 
 success = "SUCCESS   "
-fail = "FAIL   "
+fail = "FAIL      "
 logger = Log()
+t1 = time.time()
 
 
 class Browser_engine(object):
     """浏览器引擎"""
 
-    def get_browser(self, browsertype="chrome"):
+    @staticmethod
+    def my_print(msg):
+        logger.info(msg)
 
-        if browsertype == "ie":
-            driver = webdriver.Ie()
-        elif browsertype == "firefox":
-            driver = webdriver.Firefox()
-        else:
-            driver = webdriver.Chrome()
+    @staticmethod
+    def get_browser(browsertype="chrome"):
+        try:
+            if browsertype == "ie":
+                driver = webdriver.Ie()
+            elif browsertype == "firefox":
+                driver = webdriver.Firefox()
+            else:
+                driver = webdriver.Chrome()
+
+            logger.info(
+                "{0} 新建浏览器: {1}, 用时 {2} 秒".format(success, browsertype, time.time() - t1))
+        except Exception:
+            raise NameError("未发现 {0} 浏览器,你可以输入 'ie','chrome','firefox'.".format(browsertype))
+
         return driver
 
 
-class pyselenium(object):
-    def __init__(self):
-        self.driver = webdriver.Chrome()
+class pyselenium(Browser_engine):
+    def __init__(self, driver):
+        self.driver = driver
 
     def open(self, url):
         """打开网址"""
@@ -76,12 +88,27 @@ class pyselenium(object):
         """截图"""
         date = time.strftime('%Y%m%d%H%M%S', time.localtime())
         screenname = screenshot_path + date + ".png"
-        self.driver.get_screenshot_as_file(screenname)
+        try:
+            with open(screenshot_path) as f:
+                try:
+                    self.driver.get_screenshot_as_file(screenname)
+                    self.my_print(
+                        "{0} 成功截图,地址为: {1}, 用时 {2} 秒".format(success, screenshot_path, time.time() - t1))
+                except Exception:
+                    self.my_print(
+                        "{0} 未能截图,地址为: {1}, 用时 {2} 秒".format(fail, screenshot_path, time.time() - t1))
+                    raise
+        except IOError:
+            self.my_print(
+                "{0} 截图路径错误".format(fail)
+            )
 
-    def click(self,css):
+    def click(self, css):
         """点击"""
         self.get_element(css).click()
 
+
+'''
 if __name__ == "__main__":
     # dr = Browser_engine()
     # dr.get_browser()
@@ -91,3 +118,4 @@ if __name__ == "__main__":
 
     driver.take_screenshot()
     driver.close_browser()
+    '''
