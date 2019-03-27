@@ -16,28 +16,16 @@ def run():
     isExists = os.path.exists(file_path)
     if not isExists:
         os.mkdir(file_path)
-        now = time.strftime('%Y-%m-%d_%H_%M_%S')
-        reportname = file_path + 'TestResult-' + now + '.html'
-        with open(reportname, "wb") as f:
-            runner = HTMLTestRunner.HTMLTestRunner(
-                stream=f,
-                title='测试报告',
-                description='执行人： JS',
-                #tester = '井松'
-            )
-            runner.run(discover)
-    else:
-        now = time.strftime('%Y-%m-%d_%H_%M_%S')
-        reportname = file_path + 'TestResult-' + now + '.html'
-        with open(reportname, "wb") as f:
-            runner = HTMLTestRunner.HTMLTestRunner(
-                stream=f,
-                title='测试报告',
-                description='执行人： JS',
-                #tester= '井松'
-            )
-            runner.run(discover)
-
+    now = time.strftime('%Y-%m-%d_%H_%M_%S')
+    reportname = file_path + 'TestResult-' + now + '.html'
+    with open(reportname, "wb") as f:
+        runner = HTMLTestRunner.HTMLTestRunner(
+            stream=f,
+            title='测试报告',
+            description='执行人： JS',
+            tester = '井松'
+        )
+        runner.run(discover)
 
 if __name__ == "__main__":
     run()
