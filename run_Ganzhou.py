@@ -1,5 +1,5 @@
 # coding:utf-8
-from common import HTMLTestRunner
+from common import HTMLTestRunner_Spare,HTMLTestRunner
 import unittest
 from config import testcase_paht, report_path
 import os
@@ -22,7 +22,8 @@ def run():
             runner = HTMLTestRunner.HTMLTestRunner(
                 stream=f,
                 title='测试报告',
-                description='执行人： JS'
+                description='执行人： JS',
+                #tester = '井松'
             )
             runner.run(discover)
     else:
@@ -32,7 +33,8 @@ def run():
             runner = HTMLTestRunner.HTMLTestRunner(
                 stream=f,
                 title='测试报告',
-                description='执行人： JS'
+                description='执行人： JS',
+                #tester= '井松'
             )
             runner.run(discover)
 

@@ -1,0 +1,235 @@
+    """
+    Define a HTML template for report customerization and generation.
+
+    Overall structure of an HTML report
+
+    HTML
+    +------------------------+
+    |<html>                  |
+    |  <head>                |
+    |                        |
+    |   STYLESHEET           |
+    |   +----------------+   |
+    |   |                |   |
+    |   +----------------+   |
+    |                        |
+    |  </head>               |
+    |                        |
+    |  <body>                |
+    |                        |
+    |   HEADING              |
+    |   +----------------+   |
+    |   |                |   |
+    |   +----------------+   |
+    |                        |
+    |   REPORT               |
+    |   +----------------+   |
+    |   |                |   |
+    |   +----------------+   |
+    |                        |
+    |   ENDING               |
+    |   +----------------+   |
+    |   |                |   |
+    |   +----------------+   |
+    |                        |
+    |  </body>               |
+    |</html>                 |
+    +------------------------+
+    """
+
+    STATUS = {
+        0: u'通过',
+        1: u'失败',
+        2: u'错误',
+    }
+
+    DEFAULT_TITLE = 'Unit Test Report'
+    DEFAULT_DESCRIPTION = ''
+
+    # ------------------------------------------------------------------------
+    # HTML Template
+
+    HTML_TMPL = r"""<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Strict//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-strict.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml">
+<head>
+    <title>%(title)s</title>
+    <meta name="generator" content="%(generator)s"/>
+    <meta http-equiv="Content-Type" content="text/html; charset=UTF-8"/>
+    %(stylesheet)s
+</head>
+<body>
+<script language="javascript" type="text/javascript">
+output_list = Array();
+
+/* level - 0:Summary; 1:Failed; 2:All */
+function showCase(level) {
+    trs = document.getElementsByTagName("tr");
+    for (var i = 0; i < trs.length; i++) {
+        tr = trs[i];
+        id = tr.id;
+        if (id.substr(0,2) == 'ft') {
+            if (level < 1) {
+                tr.className = 'hiddenRow';
+            }
+            else {
+                tr.className = '';
+            }
+        }
+        if (id.substr(0,2) == 'pt') {
+            if (level > 1) {
+                tr.className = '';
+            }
+            else {
+                tr.className = 'hiddenRow';
+            }
+        }
+    }
+}
+
+
+function showClassDetail(cid, count) {
+    var id_list = Array(count);
+    var toHide = 1;
+    for (var i = 0; i < count; i++) {
+        tid0 = 't' + cid.substr(1) + '.' + (i+1);
+        tid = 'f' + tid0;
+        tr = document.getElementById(tid);
+        if (!tr) {
+            tid = 'p' + tid0;
+            tr = document.getElementById(tid);
+        }
+        id_list[i] = tid;
+        if (tr.className) {
+            toHide = 0;
+        }
+    }
+    for (var i = 0; i < count; i++) {
+        tid = id_list[i];
+        if (toHide) {
+            document.getElementById(tid).className = 'hiddenRow';
+        }
+        else {
+            document.getElementById(tid).className = '';
+        }
+    }
+}
+
+
+function showTestDetail(div_id){
+    var details_div = document.getElementById(div_id)
+    var displayState = details_div.style.display
+    // alert(displayState)
+    if (displayState != 'block' ) {
+        displayState = 'block'
+        details_div.style.display = 'block'
+    }
+    else {
+        details_div.style.display = 'none'
+    }
+}
+
+
+function html_escape(s) {
+    s = s.replace(/&/g,'&amp;');
+    s = s.replace(/</g,'&lt;');
+    s = s.replace(/>/g,'&gt;');
+    return s;
+}
+
+function drawCircle(pass, fail, error){ 
+    var color = ["#6c6","#c60","#c00"];  
+    var data = [pass,fail,error]; 
+    var text_arr = ["pass", "fail", "error"];
+
+    var canvas = document.getElementById("circle");  
+    var ctx = canvas.getContext("2d");  
+    var startPoint=0;
+    var width = 20, height = 10;
+    var posX = 112 * 2 + 20, posY = 30;
+    var textX = posX + width + 5, textY = posY + 10;
+    for(var i=0;i<data.length;i++){  
+        ctx.fillStyle = color[i];  
+        ctx.beginPath();  
+        ctx.moveTo(112,84);   
+        ctx.arc(112,84,84,startPoint,startPoint+Math.PI*2*(data[i]/(data[0]+data[1]+data[2])),false);  
+        ctx.fill();  
+        startPoint += Math.PI*2*(data[i]/(data[0]+data[1]+data[2]));  
+        ctx.fillStyle = color[i];  
+        ctx.fillRect(posX, posY + 20 * i, width, height);  
+        ctx.moveTo(posX, posY + 20 * i);  
+        ctx.font = 'bold 14px';
+        ctx.fillStyle = color[i];
+        var percent = text_arr[i] + ":"+data[i];  
+        ctx.fillText(percent, textX, textY + 20 * i);  
+
+    }
+}
+
+
+function show_img(obj) {
+    var obj1 = obj.nextElementSibling
+    obj1.style.display='block'
+    var index = 0;//每张图片的下标，
+    var len = obj1.getElementsByTagName('img').length;
+    var imgyuan = obj1.getElementsByClassName('imgyuan')[0]
+    //var start=setInterval(autoPlay,500);
+    obj1.onmouseover=function(){//当鼠标光标停在图片上，则停止轮播
+        clearInterval(start);
+    }
+    obj1.onmouseout=function(){//当鼠标光标停在图片上，则开始轮播
+        start=setInterval(autoPlay,1000);
+    }    
+    for (var i = 0; i < len; i++) {
+        var font = document.createElement('font')
+        imgyuan.appendChild(font)
+    }
+    var lis = obj1.getElementsByTagName('font');//得到所有圆圈
+    changeImg(0)
+    var funny = function (i) {
+        lis[i].onmouseover = function () {
+            index=i
+            changeImg(i)
+        }
+    }
+    for (var i = 0; i < lis.length; i++) {
+        funny(i);
+    }
+
+    function autoPlay(){
+        if(index>len-1){
+            index=0;
+            clearInterval(start); //运行一轮后停止
+        }
+        changeImg(index++);
+    }
+    imgyuan.style.width= 25*len +"px";
+    //对应圆圈和图片同步
+    function changeImg(index) {
+        var list = obj1.getElementsByTagName('img');
+        var list1 = obj1.getElementsByTagName('font');
+        for (i = 0; i < list.length; i++) {
+            list[i].style.display = 'none';
+            list1[i].style.backgroundColor = 'white';
+        }
+        list[index].style.display = 'block';
+        list1[index].style.backgroundColor = 'blue';
+    }
+
+}
+function hide_img(obj){
+    obj.parentElement.style.display = "none";
+    obj.parentElement.getElementsByClassName('imgyuan')[0].innerHTML = "";
+}
+</script>
+<div class="piechart">
+    <div>
+        <canvas id="circle" width="350" height="168"> </canvas>
+    </div>
+</div>
+%(heading)s
+%(report)s
+%(ending)s
+
+</body>
+</html>

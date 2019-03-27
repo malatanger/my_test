@@ -4,10 +4,12 @@ from selenium.webdriver.support.wait import WebDriverWait
 from selenium.webdriver.common.by import By
 from common.log import Log
 import time
-from config import screenshot_path
+from config import screenshot_path,report_path
+import os
 
 success = "SUCCESS   "
 fail = "FAIL      "
+warning = "WARNING   "
 logger = Log()
 t1 = time.time()
 
@@ -69,7 +71,8 @@ class pyselenium(Browser_engine):
             element = self.driver.find_element_by_css_selector(value)
         else:
             raise NameError(
-                "输入获取元素方法'id','name','class','link_text','xpath','css'.")
+                "输入获取元素方法'id','name','class','link_text','xpath','css'."
+            )
         return element
 
     def type(self, css, text):
@@ -86,22 +89,38 @@ class pyselenium(Browser_engine):
 
     def take_screenshot(self):
         """截图"""
-        date = time.strftime('%Y%m%d%H%M%S', time.localtime())
-        screenname = screenshot_path + date + ".png"
-        try:
-            with open(screenshot_path) as f:
-                try:
-                    self.driver.get_screenshot_as_file(screenname)
-                    self.my_print(
-                        "{0} 成功截图,地址为: {1}, 用时 {2} 秒".format(success, screenshot_path, time.time() - t1))
-                except Exception:
-                    self.my_print(
-                        "{0} 未能截图,地址为: {1}, 用时 {2} 秒".format(fail, screenshot_path, time.time() - t1))
-                    raise
-        except IOError:
-            self.my_print(
-                "{0} 截图路径错误".format(fail)
-            )
+        date = time.strftime('%Y-%m-%d')
+        file_path = report_path + date + "/image/"
+        isExists = os.path.exists(file_path)
+        if not isExists:
+            os.mkdir(file_path)
+            date = time.strftime('%Y%m%d%H%M%S', time.localtime())
+            screenname = file_path + date + ".png"
+            try:
+                picture_url = self.driver.get_screenshot_as_file(screenname)
+                if picture_url is True:
+                    print('screenshot:  {0}.png'.format(date))
+                    self.my_print("{0} 截图保存成功，地址为{1}.".format(success, file_path))
+                else:
+                    self.my_print("{0} 截图保存失败.".format(warning))
+            except Exception:
+                raise AttributeError(
+                    "截图失败"
+                )
+        else:
+            date = time.strftime('%Y%m%d%H%M%S', time.localtime())
+            screenname = file_path + date + ".png"
+            try:
+                picture_url = self.driver.get_screenshot_as_file(screenname)
+                if picture_url is True:
+                    print('screenshot:  {0}.png'.format(date))
+                    self.my_print("{0} 截图保存成功，地址为{1}.".format(success, file_path))
+                else:
+                    self.my_print("{0} 截图保存失败.".format(warning))
+            except Exception:
+                raise AttributeError(
+                    "截图失败"
+                )
 
     def click(self, css):
         """点击"""
