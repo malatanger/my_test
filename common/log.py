@@ -12,7 +12,7 @@ class Log(object):
     def __mylog(self, level, mesg):
 
         now = time.strftime('%Y-%m-%d')
-        logname = self.log_path + level + '-' + now + '.txt'
+        logname = self.log_path + now + '.txt'
         logger = logging.getLogger()
         logger.setLevel(logging.DEBUG)
         formatter = logging.Formatter("%(asctime)s - %(name)s - %(levelname)s - %(message)s")
@@ -48,9 +48,8 @@ class Log(object):
     def error(self, mesg):
         self.__mylog("error", mesg)
 
-
-if __name__ == "__main__":
-    L = Log()
-    L.info("sdfasd")
-    L.error("3334242")
-    L.warning("1123332221")
+# if __name__ == "__main__":
+#     L = Log()
+#     L.info("sdfasd")
+#     L.error("3334242")
+#     L.warning("1123332221")
