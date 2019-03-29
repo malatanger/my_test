@@ -1,0 +1,443 @@
+2019-03-29 09:13:03,970 - root - INFO - ############################### START ###############################
+2019-03-29 09:13:10,073 - root - INFO - SUCCESS    新建浏览器: chrome, 用时 6.102349042892456 秒
+2019-03-29 09:13:12,804 - root - INFO - SUCCESS    成功打开链接：https://www.hunanlwlk.com/，用时2.5881478786468506.
+2019-03-29 09:13:13,150 - root - INFO - SUCCESS    元素：css->#txtUser，内容：‘js002’输入成功，用时0.34401988983154297.
+2019-03-29 09:13:13,295 - root - INFO - SUCCESS    元素：css->#txtPwd，内容：‘qwe123456’输入成功，用时0.14300823211669922.
+2019-03-29 09:13:15,238 - root - INFO - SUCCESS    点击元素：css->.login-btn，用时：1.9411110877990723
+2019-03-29 09:13:15,628 - root - INFO - SUCCESS    移动到元素: <css->#home-down-icon-level>, 用时 0.3870222568511963
+2019-03-29 09:13:15,905 - root - INFO - SUCCESS    点击元素：css->#base_info_level，用时：0.27501583099365234
+2019-03-29 09:13:17,227 - root - INFO - SUCCESS    元素：css->#vehicleManage_tables_div_queyFrom0_form0_text0_show，内容：‘湘FA6070’输入成功，用时1.317075252532959.
+2019-03-29 09:13:17,388 - root - INFO - SUCCESS    点击元素：css->#vehicleManage_tables_div_queyFrom0_form1_button0_btn，用时：0.15900897979736328
+2019-03-29 09:13:18,557 - root - INFO - SUCCESS    点击元素：css->#vehicleManage_tables_table > tbody > tr，用时：1.1650669574737549
+2019-03-29 09:13:18,695 - root - INFO - SUCCESS    点击元素：css->#vehicleManage_tables_div_queyFrom0_form1_button1_btn，用时：0.13600754737854004
+2019-03-29 09:13:18,841 - root - INFO - SUCCESS    点击元素：css->#layui-layer5 > div.layui-layer-btn > a.layui-layer-btn0，用时：0.14500856399536133
+2019-03-29 09:13:23,915 - root - INFO - FAIL       无法获取元素文本 元素: <css->#layui-layer23>, 用时 5.072289943695068 
+2019-03-29 09:13:27,211 - root - INFO - SUCCESS    退出浏览器并清除临时文件，用时3.24318528175354
+2019-03-29 09:13:27,213 - root - INFO - ################################ End ################################
+2019-03-29 09:14:52,716 - root - INFO - ############################### START ###############################
+2019-03-29 09:14:57,633 - root - INFO - SUCCESS    新建浏览器: chrome, 用时 4.915281295776367 秒
+2019-03-29 09:14:58,467 - root - INFO - SUCCESS    成功打开链接：https://www.hunanlwlk.com/，用时0.832047700881958.
+2019-03-29 09:14:58,644 - root - INFO - SUCCESS    元素：css->#txtUser，内容：‘js002’输入成功，用时0.17500972747802734.
+2019-03-29 09:14:58,844 - root - INFO - SUCCESS    元素：css->#txtPwd，内容：‘qwe123456’输入成功，用时0.1980113983154297.
+2019-03-29 09:15:01,471 - root - INFO - SUCCESS    点击元素：css->.login-btn，用时：2.623150110244751
+2019-03-29 09:15:01,698 - root - INFO - SUCCESS    移动到元素: <css->#home-down-icon-level>, 用时 0.22301244735717773
+2019-03-29 09:15:01,912 - root - INFO - SUCCESS    点击元素：css->#base_info_level，用时：0.21201229095458984
+2019-03-29 09:15:03,100 - root - INFO - SUCCESS    元素：css->#vehicleManage_tables_div_queyFrom0_form0_text0_show，内容：‘湘FA6070’输入成功，用时1.185067892074585.
+2019-03-29 09:15:03,253 - root - INFO - SUCCESS    点击元素：css->#vehicleManage_tables_div_queyFrom0_form1_button0_btn，用时：0.1500086784362793
+2019-03-29 09:15:05,407 - root - INFO - SUCCESS    点击元素：css->#vehicleManage_tables_table > tbody > tr，用时：2.152123212814331
+2019-03-29 09:15:05,539 - root - INFO - SUCCESS    点击元素：css->#vehicleManage_tables_div_queyFrom0_form1_button1_btn，用时：0.13100743293762207
+2019-03-29 09:15:05,689 - root - INFO - SUCCESS    点击元素：css->#layui-layer5 > div.layui-layer-btn > a.layui-layer-btn0，用时：0.14900851249694824
+2019-03-29 09:15:24,092 - root - INFO - SUCCESS    退出浏览器并清除临时文件，用时3.1411795616149902
+2019-03-29 09:15:24,095 - root - INFO - ################################ End ################################
+2019-03-29 09:15:35,964 - root - INFO - ############################### START ###############################
+2019-03-29 09:15:40,750 - root - INFO - SUCCESS    新建浏览器: chrome, 用时 4.785273551940918 秒
+2019-03-29 09:15:42,153 - root - INFO - SUCCESS    成功打开链接：https://www.hunanlwlk.com/，用时1.4020800590515137.
+2019-03-29 09:15:42,433 - root - INFO - SUCCESS    元素：css->#txtUser，内容：‘js002’输入成功，用时0.2780160903930664.
+2019-03-29 09:15:42,543 - root - INFO - SUCCESS    元素：css->#txtPwd，内容：‘qwe123456’输入成功，用时0.10800623893737793.
+2019-03-29 09:15:44,182 - root - INFO - SUCCESS    点击元素：css->.login-btn，用时：1.6380934715270996
+2019-03-29 09:15:44,544 - root - INFO - SUCCESS    移动到元素: <css->#home-down-icon-level>, 用时 0.3610208034515381
+2019-03-29 09:15:44,763 - root - INFO - SUCCESS    点击元素：css->#base_info_level，用时：0.2170124053955078
+2019-03-29 09:15:46,449 - root - INFO - SUCCESS    元素：css->#vehicleManage_tables_div_queyFrom0_form0_text0_show，内容：‘湘FA6070’输入成功，用时1.686096429824829.
+2019-03-29 09:15:46,602 - root - INFO - SUCCESS    点击元素：css->#vehicleManage_tables_div_queyFrom0_form1_button0_btn，用时：0.1520087718963623
+2019-03-29 09:15:47,715 - root - INFO - SUCCESS    点击元素：css->#vehicleManage_tables_table > tbody > tr，用时：1.1130635738372803
+2019-03-29 09:15:47,848 - root - INFO - SUCCESS    点击元素：css->#vehicleManage_tables_div_queyFrom0_form1_button1_btn，用时：0.13200783729553223
+2019-03-29 09:15:47,955 - root - INFO - SUCCESS    点击元素：css->#layui-layer5 > div.layui-layer-btn > a.layui-layer-btn0，用时：0.10400581359863281
+2019-03-29 09:50:05,362 - root - INFO - ############################### START ###############################
+2019-03-29 09:50:10,417 - root - INFO - SUCCESS    新建浏览器: chrome, 用时 5.05328893661499 秒
+2019-03-29 09:50:11,701 - root - INFO - SUCCESS    成功打开链接：https://www.hunanlwlk.com/，用时1.2830736637115479.
+2019-03-29 09:50:11,953 - root - INFO - SUCCESS    元素：css->#txtUser，内容：‘js002’输入成功，用时0.25101423263549805.
+2019-03-29 09:50:12,042 - root - INFO - SUCCESS    元素：css->#txtPwd，内容：‘qwe123456’输入成功，用时0.0870048999786377.
+2019-03-29 09:50:14,162 - root - INFO - SUCCESS    点击元素：css->.login-btn，用时：2.1181211471557617
+2019-03-29 09:50:14,236 - root - INFO - SUCCESS    移动到元素: <css->#home-down-icon-level>, 用时 0.07200407981872559
+2019-03-29 09:50:14,462 - root - INFO - SUCCESS    点击元素：css->#base_info_level，用时：0.2240126132965088
+2019-03-29 09:50:15,958 - root - INFO - SUCCESS    元素：css->#vehicleManage_tables_div_queyFrom0_form0_text0_show，内容：‘湘FA6070’输入成功，用时1.4940855503082275.
+2019-03-29 09:50:16,291 - root - INFO - SUCCESS    点击元素：css->#vehicleManage_tables_div_queyFrom0_form1_button0_btn，用时：0.33101892471313477
+2019-03-29 09:50:17,452 - root - INFO - SUCCESS    点击元素：css->#vehicleManage_tables_table > tbody > tr，用时：1.1580662727355957
+2019-03-29 09:50:17,559 - root - INFO - SUCCESS    点击元素：css->#vehicleManage_tables_div_queyFrom0_form1_button1_btn，用时：0.10500621795654297
+2019-03-29 09:50:17,666 - root - INFO - SUCCESS    点击元素：css->#layui-layer5 > div.layui-layer-btn > a.layui-layer-btn0，用时：0.10500597953796387
+2019-03-29 09:50:19,790 - root - INFO - SUCCESS    获取元素文本 元素: <css->.layui-layer-content.layui-layer-padding>, 用时 0.05700325965881348 
+2019-03-29 09:50:22,867 - root - INFO - SUCCESS    退出浏览器并清除临时文件，用时3.0751760005950928
+2019-03-29 09:50:22,872 - root - INFO - ################################ End ################################
+2019-03-29 09:55:19,254 - root - INFO - ############################### START ###############################
+2019-03-29 09:55:44,156 - root - INFO - ############################### START ###############################
+2019-03-29 09:55:49,254 - root - INFO - SUCCESS    新建浏览器: chrome, 用时 5.097291707992554 秒
+2019-03-29 09:57:18,910 - root - INFO - ############################### START ###############################
+2019-03-29 09:57:57,715 - root - INFO - ############################### START ###############################
+2019-03-29 09:58:08,680 - root - INFO - SUCCESS    新建浏览器: firefox, 用时 10.963627338409424 秒
+2019-03-29 09:58:11,668 - root - INFO - SUCCESS    成功打开链接：https://www.hunanlwlk.com/，用时2.986170768737793.
+2019-03-29 09:58:11,788 - root - INFO - SUCCESS    元素：css->#txtUser，内容：‘js002’输入成功，用时0.11900687217712402.
+2019-03-29 09:58:11,815 - root - INFO - SUCCESS    元素：css->#txtPwd，内容：‘qwe123456’输入成功，用时0.02500128746032715.
+2019-03-29 09:58:18,344 - root - INFO - SUCCESS    点击元素：css->.login-btn，用时：6.5283732414245605
+2019-03-29 09:58:18,932 - root - INFO - SUCCESS    移动到元素: <css->#home-down-icon-level>, 用时 0.5860333442687988
+2019-03-29 09:58:19,641 - root - INFO - SUCCESS    点击元素：css->#base_info_level，用时：0.7080404758453369
+2019-03-29 09:58:20,758 - root - INFO - SUCCESS    元素：css->#vehicleManage_tables_div_queyFrom0_form0_text0_show，内容：‘湘FA6070’输入成功，用时1.1170639991760254.
+2019-03-29 09:58:21,195 - root - INFO - SUCCESS    点击元素：css->#vehicleManage_tables_div_queyFrom0_form1_button0_btn，用时：0.4370250701904297
+2019-03-29 09:58:22,262 - root - INFO - FAIL       未能点击元素css->#vehicleManage_tables_table > tbody > tr.
+2019-03-29 09:58:22,526 - root - INFO - SUCCESS    点击元素：css->#vehicleManage_tables_div_queyFrom0_form1_button1_btn，用时：0.26201510429382324
+2019-03-29 09:58:27,549 - root - INFO - FAIL       未能点击元素css->#layui-layer5 > div.layui-layer-btn > a.layui-layer-btn0.
+2019-03-29 09:58:45,277 - root - INFO - SUCCESS    退出浏览器并清除临时文件，用时2.620149850845337
+2019-03-29 09:58:45,278 - root - INFO - ################################ End ################################
+2019-03-29 10:00:48,721 - root - INFO - ############################### START ###############################
+2019-03-29 10:00:57,976 - root - INFO - SUCCESS    新建浏览器: firefox, 用时 9.254529237747192 秒
+2019-03-29 10:01:00,662 - root - INFO - SUCCESS    成功打开链接：https://www.hunanlwlk.com/，用时2.6851534843444824.
+2019-03-29 10:01:00,714 - root - INFO - SUCCESS    元素：css->#txtUser，内容：‘js002’输入成功，用时0.05100297927856445.
+2019-03-29 10:01:00,736 - root - INFO - SUCCESS    元素：css->#txtPwd，内容：‘qwe123456’输入成功，用时0.021001100540161133.
+2019-03-29 10:01:03,576 - root - INFO - SUCCESS    点击元素：css->.login-btn，用时：2.8381621837615967
+2019-03-29 10:01:03,931 - root - INFO - SUCCESS    移动到元素: <css->#home-down-icon-level>, 用时 0.3520200252532959
+2019-03-29 10:01:04,206 - root - INFO - SUCCESS    点击元素：css->#base_info_level，用时：0.27301549911499023
+2019-03-29 10:01:05,602 - root - INFO - SUCCESS    元素：css->#vehicleManage_tables_div_queyFrom0_form0_text0_show，内容：‘湘FA6070’输入成功，用时1.3930797576904297.
+2019-03-29 10:01:05,818 - root - INFO - SUCCESS    点击元素：css->#vehicleManage_tables_div_queyFrom0_form1_button0_btn，用时：0.21401214599609375
+2019-03-29 10:01:07,863 - root - INFO - FAIL       未能点击元素css->#vehicleManage_tables_table > tbody > tr.
+2019-03-29 10:01:08,111 - root - INFO - SUCCESS    点击元素：css->#vehicleManage_tables_div_queyFrom0_form1_button1_btn，用时：0.24601435661315918
+2019-03-29 10:01:13,137 - root - INFO - FAIL       未能点击元素css->#layui-layer5 > div.layui-layer-btn > a.layui-layer-btn0.
+2019-03-29 10:01:30,576 - root - INFO - SUCCESS    退出浏览器并清除临时文件，用时2.3001315593719482
+2019-03-29 10:01:30,576 - root - INFO - ################################ End ################################
+2019-03-29 10:01:31,906 - root - INFO - ############################### START ###############################
+2019-03-29 10:01:39,748 - root - INFO - SUCCESS    新建浏览器: firefox, 用时 7.8414483070373535 秒
+2019-03-29 10:01:42,274 - root - INFO - SUCCESS    成功打开链接：https://www.hunanlwlk.com/，用时2.525144338607788.
+2019-03-29 10:01:42,309 - root - INFO - SUCCESS    元素：css->#txtUser，内容：‘js002’输入成功，用时0.03400230407714844.
+2019-03-29 10:01:42,354 - root - INFO - SUCCESS    元素：css->#txtPwd，内容：‘qwe123456’输入成功，用时0.044002532958984375.
+2019-03-29 10:01:44,288 - root - INFO - SUCCESS    点击元素：css->.login-btn，用时：1.9331107139587402
+2019-03-29 10:01:44,598 - root - INFO - SUCCESS    移动到元素: <css->#home-down-icon-level>, 用时 0.3080174922943115
+2019-03-29 10:01:44,897 - root - INFO - SUCCESS    点击元素：css->#base_info_level，用时：0.29901695251464844
+2019-03-29 10:01:45,950 - root - INFO - SUCCESS    元素：css->#vehicleManage_tables_div_queyFrom0_form0_text0_show，内容：‘湘FA6070’输入成功，用时1.0530602931976318.
+2019-03-29 10:01:46,119 - root - INFO - SUCCESS    点击元素：css->#vehicleManage_tables_div_queyFrom0_form1_button0_btn，用时：0.16800975799560547
+2019-03-29 10:01:47,227 - root - INFO - FAIL       未能点击元素css->#vehicleManage_tables_table > tbody > tr.
+2019-03-29 10:01:47,484 - root - INFO - SUCCESS    点击元素：css->#vehicleManage_tables_div_queyFrom0_form1_button1_btn，用时：0.2560148239135742
+2019-03-29 10:01:52,526 - root - INFO - FAIL       未能点击元素css->#layui-layer5 > div.layui-layer-btn > a.layui-layer-btn0.
+2019-03-29 10:02:10,334 - root - INFO - SUCCESS    退出浏览器并清除临时文件，用时2.7041549682617188
+2019-03-29 10:02:10,335 - root - INFO - ################################ End ################################
+2019-03-29 10:14:21,408 - root - INFO - ############################### START ###############################
+2019-03-29 10:14:30,965 - root - INFO - SUCCESS    新建浏览器: firefox, 用时 9.556546926498413 秒
+2019-03-29 10:14:34,364 - root - INFO - SUCCESS    成功打开链接：https://www.hunanlwlk.com/，用时3.3981943130493164.
+2019-03-29 10:14:34,496 - root - INFO - SUCCESS    元素：css->#txtUser，内容：‘js002’输入成功，用时0.13100743293762207.
+2019-03-29 10:14:34,580 - root - INFO - SUCCESS    元素：css->#txtPwd，内容：‘qwe123456’输入成功，用时0.08300495147705078.
+2019-03-29 10:14:37,298 - root - INFO - SUCCESS    点击元素：css->.login-btn，用时：2.7171552181243896
+2019-03-29 10:14:38,525 - root - INFO - SUCCESS    移动到元素: <css->#home-down-icon-level>, 用时 1.2240700721740723
+2019-03-29 10:14:39,909 - root - INFO - SUCCESS    点击元素：css->#base_info_level，用时：1.3830790519714355
+2019-03-29 10:14:41,037 - root - INFO - SUCCESS    元素：css->#vehicleManage_tables_div_queyFrom0_form0_text0_show，内容：‘湘FA6070’输入成功，用时1.1260645389556885.
+2019-03-29 10:14:41,375 - root - INFO - SUCCESS    点击元素：css->#vehicleManage_tables_div_queyFrom0_form1_button0_btn，用时：0.3370192050933838
+2019-03-29 10:14:42,409 - root - INFO - FAIL       未能点击元素css->.odd.
+2019-03-29 10:14:42,671 - root - INFO - SUCCESS    点击元素：css->#vehicleManage_tables_div_queyFrom0_form1_button1_btn，用时：0.2610149383544922
+2019-03-29 10:14:47,699 - root - INFO - FAIL       未能点击元素css->#layui-layer5 > div.layui-layer-btn > a.layui-layer-btn0.
+2019-03-29 10:14:55,851 - root - INFO - SUCCESS    退出浏览器并清除临时文件，用时0.005000591278076172
+2019-03-29 10:14:55,853 - root - INFO - ################################ End ################################
+2019-03-29 10:15:03,075 - root - INFO - ############################### START ###############################
+2019-03-29 10:15:11,618 - root - INFO - SUCCESS    新建浏览器: firefox, 用时 8.540488481521606 秒
+2019-03-29 10:15:14,146 - root - INFO - SUCCESS    成功打开链接：https://www.hunanlwlk.com/，用时2.528144359588623.
+2019-03-29 10:15:14,336 - root - INFO - SUCCESS    元素：css->#txtUser，内容：‘js002’输入成功，用时0.18801069259643555.
+2019-03-29 10:15:14,404 - root - INFO - SUCCESS    元素：css->#txtPwd，内容：‘qwe123456’输入成功，用时0.06700396537780762.
+2019-03-29 10:15:17,951 - root - INFO - SUCCESS    点击元素：css->.login-btn，用时：3.5452027320861816
+2019-03-29 10:15:19,531 - root - INFO - SUCCESS    移动到元素: <css->#home-down-icon-level>, 用时 1.5780904293060303
+2019-03-29 10:15:21,152 - root - INFO - SUCCESS    点击元素：css->#base_info_level，用时：1.6200926303863525
+2019-03-29 10:15:22,205 - root - INFO - SUCCESS    元素：css->#vehicleManage_tables_div_queyFrom0_form0_text0_show，内容：‘湘FA6070’输入成功，用时1.0500600337982178.
+2019-03-29 10:15:22,420 - root - INFO - SUCCESS    点击元素：css->#vehicleManage_tables_div_queyFrom0_form1_button0_btn，用时：0.21401214599609375
+2019-03-29 10:15:24,456 - root - INFO - FAIL       未能点击元素css->.odd.
+2019-03-29 10:15:24,753 - root - INFO - SUCCESS    点击元素：css->#vehicleManage_tables_div_queyFrom0_form1_button1_btn，用时：0.29701685905456543
+2019-03-29 10:15:29,785 - root - INFO - FAIL       未能点击元素css->#layui-layer5 > div.layui-layer-btn > a.layui-layer-btn0.
+2019-03-29 10:15:46,910 - root - INFO - SUCCESS    退出浏览器并清除临时文件，用时2.03511643409729
+2019-03-29 10:15:46,911 - root - INFO - ################################ End ################################
+2019-03-29 10:20:45,876 - root - INFO - ############################### START ###############################
+2019-03-29 10:20:58,640 - root - INFO - SUCCESS    新建浏览器: firefox, 用时 12.76272988319397 秒
+2019-03-29 10:21:00,355 - root - INFO - SUCCESS    成功打开链接：https://www.hunanlwlk.com/，用时1.7130978107452393.
+2019-03-29 10:21:00,480 - root - INFO - SUCCESS    元素：css->#txtUser，内容：‘js002’输入成功，用时0.12500715255737305.
+2019-03-29 10:21:00,686 - root - INFO - SUCCESS    元素：css->#txtPwd，内容：‘qwe123456’输入成功，用时0.2040116786956787.
+2019-03-29 10:21:08,103 - root - INFO - SUCCESS    点击元素：css->.login-btn，用时：7.415424108505249
+2019-03-29 10:21:08,814 - root - INFO - SUCCESS    移动到元素: <css->#home-down-icon-level>, 用时 0.707040548324585
+2019-03-29 10:21:09,959 - root - INFO - SUCCESS    点击元素：css->#base_info_level，用时：1.1430654525756836
+2019-03-29 10:21:11,041 - root - INFO - SUCCESS    元素：css->#vehicleManage_tables_div_queyFrom0_form0_text0_show，内容：‘湘FA6070’输入成功，用时1.081061840057373.
+2019-03-29 10:21:11,305 - root - INFO - SUCCESS    点击元素：css->#vehicleManage_tables_div_queyFrom0_form1_button0_btn，用时：0.2630152702331543
+2019-03-29 10:21:21,373 - root - INFO - FAIL       未能点击元素css->.odd.selected.
+2019-03-29 10:21:21,629 - root - INFO - SUCCESS    点击元素：css->#vehicleManage_tables_div_queyFrom0_form1_button1_btn，用时：0.25301432609558105
+2019-03-29 10:21:26,678 - root - INFO - FAIL       未能点击元素css->#layui-layer5 > div.layui-layer-btn > a.layui-layer-btn0.
+2019-03-29 10:21:43,698 - root - INFO - SUCCESS    退出浏览器并清除临时文件，用时1.9281103610992432
+2019-03-29 10:21:43,700 - root - INFO - ################################ End ################################
+2019-03-29 10:22:54,037 - root - INFO - ############################### START ###############################
+2019-03-29 10:23:03,973 - root - INFO - SUCCESS    新建浏览器: firefox, 用时 9.934568405151367 秒
+2019-03-29 10:23:04,270 - root - INFO - SUCCESS    浏览器窗口最大化, 用时 0.2960169315338135 ：
+2019-03-29 10:23:07,552 - root - INFO - SUCCESS    成功打开链接：https://www.hunanlwlk.com/，用时3.2811877727508545.
+2019-03-29 10:23:07,656 - root - INFO - SUCCESS    元素：css->#txtUser，内容：‘js002’输入成功，用时0.10100579261779785.
+2019-03-29 10:23:07,764 - root - INFO - SUCCESS    元素：css->#txtPwd，内容：‘qwe123456’输入成功，用时0.10600614547729492.
+2019-03-29 10:23:11,529 - root - INFO - SUCCESS    点击元素：css->.login-btn，用时：3.7632153034210205
+2019-03-29 10:23:14,303 - root - INFO - SUCCESS    移动到元素: <css->#home-down-icon-level>, 用时 2.771158456802368
+2019-03-29 10:23:15,559 - root - INFO - SUCCESS    点击元素：css->#base_info_level，用时：1.2540714740753174
+2019-03-29 10:23:16,654 - root - INFO - SUCCESS    元素：css->#vehicleManage_tables_div_queyFrom0_form0_text0_show，内容：‘湘FA6070’输入成功，用时1.09206223487854.
+2019-03-29 10:23:17,093 - root - INFO - SUCCESS    点击元素：css->#vehicleManage_tables_div_queyFrom0_form1_button0_btn，用时：0.4370250701904297
+2019-03-29 10:23:22,124 - root - INFO - FAIL       未能点击元素xpath->/html/body/div[1]/div[2]/div[2]/div[2]/div/div/div/div/div/div[2]/div/div[2]/div/table/tbody/tr.
+2019-03-29 10:23:22,414 - root - INFO - SUCCESS    点击元素：css->#vehicleManage_tables_div_queyFrom0_form1_button1_btn，用时：0.2890167236328125
+2019-03-29 10:23:27,447 - root - INFO - FAIL       未能点击元素css->#layui-layer5 > div.layui-layer-btn > a.layui-layer-btn0.
+2019-03-29 10:23:44,662 - root - INFO - SUCCESS    退出浏览器并清除临时文件，用时2.1181211471557617
+2019-03-29 10:23:44,663 - root - INFO - ################################ End ################################
+2019-03-29 14:17:26,634 - root - INFO - ############################### START ###############################
+2019-03-29 14:17:39,270 - root - INFO - SUCCESS    新建浏览器: firefox, 用时 12.63472294807434 秒
+2019-03-29 14:17:39,903 - root - INFO - SUCCESS    浏览器窗口最大化, 用时 0.47502708435058594 ：
+2019-03-29 14:17:43,809 - root - INFO - SUCCESS    成功打开链接：https://www.hunanlwlk.com/，用时3.9042232036590576.
+2019-03-29 14:17:44,301 - root - INFO - SUCCESS    元素：css->#txtUser，内容：‘js002’输入成功，用时0.4910283088684082.
+2019-03-29 14:17:44,481 - root - INFO - SUCCESS    元素：css->#txtPwd，内容：‘qwe123456’输入成功，用时0.18001031875610352.
+2019-03-29 14:17:50,872 - root - INFO - SUCCESS    点击元素：css->.login-btn，用时：6.3893654346466064
+2019-03-29 14:17:51,713 - root - INFO - SUCCESS    移动到元素: <css->#home-down-icon-level>, 用时 0.8390481472015381
+2019-03-29 14:17:52,716 - root - INFO - SUCCESS    点击元素：css->#base_info_level，用时：1.0020575523376465
+2019-03-29 14:17:53,769 - root - INFO - SUCCESS    元素：css->#vehicleManage_tables_div_queyFrom0_form0_text0_show，内容：‘湘FA6070’输入成功，用时1.0510601997375488.
+2019-03-29 14:17:54,097 - root - INFO - SUCCESS    点击元素：css->#vehicleManage_tables_div_queyFrom0_form1_button0_btn，用时：0.3260188102722168
+2019-03-29 14:17:58,094 - root - INFO - SUCCESS    退出浏览器并清除临时文件，用时3.9772274494171143
+2019-03-29 14:17:58,095 - root - INFO - ################################ End ################################
+2019-03-29 14:25:31,444 - root - INFO - ############################### START ###############################
+2019-03-29 14:25:41,812 - root - INFO - SUCCESS    新建浏览器: firefox, 用时 10.367593050003052 秒
+2019-03-29 14:25:42,104 - root - INFO - SUCCESS    浏览器窗口最大化, 用时 0.29001641273498535 ：
+2019-03-29 14:25:44,047 - root - INFO - SUCCESS    成功打开链接：https://www.hunanlwlk.com/，用时1.9421112537384033.
+2019-03-29 14:25:44,212 - root - INFO - SUCCESS    元素：css->#txtUser，内容：‘js002’输入成功，用时0.1630096435546875.
+2019-03-29 14:25:44,405 - root - INFO - SUCCESS    元素：css->#txtPwd，内容：‘qwe123456’输入成功，用时0.19201087951660156.
+2019-03-29 14:25:46,928 - root - INFO - SUCCESS    点击元素：css->.login-btn，用时：2.522144317626953
+2019-03-29 14:25:47,290 - root - INFO - SUCCESS    移动到元素: <css->#home-down-icon-level>, 用时 0.36002087593078613
+2019-03-29 14:25:48,009 - root - INFO - FAIL       未能点击元素css->#base_info_level.
+2019-03-29 14:25:53,579 - root - INFO - FAIL       元素：css->#vehicleManage_tables_div_queyFrom0_form0_text0_show，内容：‘湘FA6070’输入是吧，用时5.565318584442139.
+2019-03-29 14:25:56,106 - root - INFO - SUCCESS    退出浏览器并清除临时文件，用时2.503143072128296
+2019-03-29 14:25:56,107 - root - INFO - ################################ End ################################
+2019-03-29 14:27:44,567 - root - INFO - ############################### START ###############################
+2019-03-29 14:27:55,283 - root - INFO - SUCCESS    新建浏览器: chrome, 用时 10.715612888336182 秒
+2019-03-29 14:27:56,404 - root - INFO - SUCCESS    浏览器窗口最大化, 用时：1.1200640201568604 
+2019-03-29 14:27:57,052 - root - INFO - SUCCESS    成功打开链接：https://www.hunanlwlk.com/，用时0.6480369567871094.
+2019-03-29 14:27:57,250 - root - INFO - SUCCESS    元素：css->#txtUser，内容：‘js002’输入成功，用时0.19601154327392578.
+2019-03-29 14:27:57,652 - root - INFO - SUCCESS    元素：css->#txtPwd，内容：‘qwe123456’输入成功，用时0.40102314949035645.
+2019-03-29 14:28:03,113 - root - INFO - SUCCESS    点击元素：css->.login-btn，用时：5.460312128067017
+2019-03-29 14:28:03,554 - root - INFO - SUCCESS    移动到元素: <css->#home-down-icon-level>, 用时 0.4390251636505127
+2019-03-29 14:28:05,356 - root - INFO - SUCCESS    点击元素：css->#base_info_level，用时：1.799102783203125
+2019-03-29 14:28:10,191 - root - INFO - SUCCESS    元素：css->#vehicleManage_tables_div_queyFrom0_form0_text0_show，内容：‘湘FA6070’输入成功，用时4.834276437759399.
+2019-03-29 14:28:10,435 - root - INFO - SUCCESS    点击元素：css->#vehicleManage_tables_div_queyFrom0_form1_button0_btn，用时：0.24301385879516602
+2019-03-29 14:28:10,883 - root - INFO - SUCCESS    截图保存成功，地址为f:/my_test/report/2019-03-29,用时0.4480254650115967
+2019-03-29 14:28:10,895 - root - INFO - SUCCESS    等待 5 秒钟
+2019-03-29 14:28:11,346 - root - INFO - SUCCESS    点击元素：xpath->/html/body/div[1]/div[2]/div[2]/div[2]/div/div/div/div/div/div[2]/div/div[2]/div/table/tbody/tr，用时：0.45102596282958984
+2019-03-29 14:28:11,493 - root - INFO - SUCCESS    点击元素：css->#vehicleManage_tables_div_queyFrom0_form1_button1_btn，用时：0.14400815963745117
+2019-03-29 14:28:11,898 - root - INFO - SUCCESS    点击元素：css->#layui-layer5 > div.layui-layer-btn > a.layui-layer-btn0，用时：0.4020228385925293
+2019-03-29 14:28:14,179 - root - INFO - SUCCESS    获取元素文本 元素: <css->.layui-layer-content.layui-layer-padding>, 用时 0.19901132583618164 
+2019-03-29 14:28:17,445 - root - INFO - SUCCESS    退出浏览器并清除临时文件，用时3.2651865482330322
+2019-03-29 14:28:17,446 - root - INFO - ################################ End ################################
+2019-03-29 14:28:44,342 - root - INFO - ############################### START ###############################
+2019-03-29 14:28:55,311 - root - INFO - SUCCESS    新建浏览器: firefox, 用时 10.966627359390259 秒
+2019-03-29 14:28:55,580 - root - INFO - SUCCESS    浏览器窗口最大化, 用时：0.26801538467407227 
+2019-03-29 14:28:57,074 - root - INFO - SUCCESS    成功打开链接：https://www.hunanlwlk.com/，用时1.4920854568481445.
+2019-03-29 14:28:57,128 - root - INFO - SUCCESS    元素：css->#txtUser，内容：‘js002’输入成功，用时0.05300307273864746.
+2019-03-29 14:28:57,209 - root - INFO - SUCCESS    元素：css->#txtPwd，内容：‘qwe123456’输入成功，用时0.08000469207763672.
+2019-03-29 14:28:59,565 - root - INFO - SUCCESS    点击元素：css->.login-btn，用时：2.3541347980499268
+2019-03-29 14:28:59,891 - root - INFO - SUCCESS    移动到元素: <css->#home-down-icon-level>, 用时 0.32501840591430664
+2019-03-29 14:29:00,152 - root - INFO - SUCCESS    点击元素：css->#base_info_level，用时：0.2590148448944092
+2019-03-29 14:29:01,397 - root - INFO - SUCCESS    元素：css->#vehicleManage_tables_div_queyFrom0_form0_text0_show，内容：‘湘FA6070’输入成功，用时1.2440712451934814.
+2019-03-29 14:29:01,672 - root - INFO - SUCCESS    点击元素：css->#vehicleManage_tables_div_queyFrom0_form1_button0_btn，用时：0.2740154266357422
+2019-03-29 14:29:01,850 - root - INFO - SUCCESS    截图保存成功，地址为f:/my_test/report/2019-03-29,用时0.1760101318359375
+2019-03-29 14:29:01,855 - root - INFO - SUCCESS    等待 5 秒钟
+2019-03-29 14:29:02,321 - root - INFO - FAIL       未能点击元素xpath->/html/body/div[1]/div[2]/div[2]/div[2]/div/div/div/div/div/div[2]/div/div[2]/div/table/tbody/tr.
+2019-03-29 14:29:02,582 - root - INFO - SUCCESS    点击元素：css->#vehicleManage_tables_div_queyFrom0_form1_button1_btn，用时：0.2590148448944092
+2019-03-29 14:29:08,597 - root - INFO - FAIL       未能点击元素css->#layui-layer5 > div.layui-layer-btn > a.layui-layer-btn0.
+2019-03-29 14:29:29,352 - root - INFO - SUCCESS    退出浏览器并清除临时文件，用时2.6491518020629883
+2019-03-29 14:29:29,353 - root - INFO - ################################ End ################################
+2019-03-29 14:32:19,139 - root - INFO - ############################### START ###############################
+2019-03-29 14:34:12,367 - root - INFO - ############################### START ###############################
+2019-03-29 14:44:56,556 - root - INFO - ############################### START ###############################
+2019-03-29 14:45:20,821 - root - INFO - SUCCESS    新建浏览器: firefox, 用时 23.957370042800903 秒
+2019-03-29 14:45:21,804 - root - INFO - SUCCESS    浏览器窗口最大化, 用时：0.5100293159484863 
+2019-03-29 14:45:26,701 - root - INFO - SUCCESS    成功打开链接：https://www.hunanlwlk.com/，用时4.896279811859131.
+2019-03-29 14:45:27,027 - root - INFO - SUCCESS    元素：css->#txtUser，内容：‘js002’输入成功，用时0.32501864433288574.
+2019-03-29 14:45:27,152 - root - INFO - SUCCESS    元素：css->#txtPwd，内容：‘qwe123456’输入成功，用时0.12500739097595215.
+2019-03-29 14:45:30,323 - root - INFO - SUCCESS    点击元素：css->.login-btn，用时：3.1681811809539795
+2019-03-29 14:45:32,750 - root - INFO - SUCCESS    移动到元素: <css->#home-down-icon-level>, 用时 2.389136552810669
+2019-03-29 14:45:33,553 - root - INFO - SUCCESS    点击元素：css->#base_info_level，用时：0.8010458946228027
+2019-03-29 14:45:34,838 - root - INFO - SUCCESS    元素：css->#vehicleManage_tables_div_queyFrom0_form0_text0_show，内容：‘湘FA6070’输入成功，用时1.2840731143951416.
+2019-03-29 14:45:35,113 - root - INFO - SUCCESS    点击元素：css->#vehicleManage_tables_div_queyFrom0_form1_button0_btn，用时：0.2740159034729004
+2019-03-29 14:45:35,419 - root - INFO - SUCCESS    截图保存成功，地址为f:/my_test/report/2019-03-29,用时0.3040173053741455
+2019-03-29 14:45:35,424 - root - INFO - SUCCESS    等待 5 秒钟
+2019-03-29 14:45:41,456 - root - INFO - FAIL       未能点击元素css->#vehicleManage_tables_table > tbody:nth-child(1).
+2019-03-29 14:45:41,699 - root - INFO - SUCCESS    点击元素：css->#vehicleManage_tables_div_queyFrom0_form1_button1_btn，用时：0.24201369285583496
+2019-03-29 14:45:47,710 - root - INFO - FAIL       未能点击元素css->#layui-layer5 > div.layui-layer-btn > a.layui-layer-btn0.
+2019-03-29 14:46:08,991 - root - INFO - SUCCESS    退出浏览器并清除临时文件，用时3.1431796550750732
+2019-03-29 14:46:08,992 - root - INFO - ################################ End ################################
+2019-03-29 14:47:32,747 - root - INFO - ############################### START ###############################
+2019-03-29 14:47:46,815 - root - INFO - SUCCESS    新建浏览器: firefox, 用时 14.06780457496643 秒
+2019-03-29 14:47:47,085 - root - INFO - SUCCESS    浏览器窗口最大化, 用时：0.2690155506134033 
+2019-03-29 14:47:48,974 - root - INFO - SUCCESS    成功打开链接：https://www.hunanlwlk.com/，用时1.8871078491210938.
+2019-03-29 14:47:49,043 - root - INFO - SUCCESS    元素：css->#txtUser，内容：‘js002’输入成功，用时0.06900405883789062.
+2019-03-29 14:47:49,068 - root - INFO - SUCCESS    元素：css->#txtPwd，内容：‘qwe123456’输入成功，用时0.024001359939575195.
+2019-03-29 14:47:51,478 - root - INFO - SUCCESS    点击元素：css->.login-btn，用时：2.41013765335083
+2019-03-29 14:47:53,876 - root - INFO - SUCCESS    移动到元素: <css->#home-down-icon-level>, 用时 2.396136999130249
+2019-03-29 14:47:54,230 - root - INFO - SUCCESS    点击元素：css->#base_info_level，用时：0.35302019119262695
+2019-03-29 14:47:55,482 - root - INFO - SUCCESS    元素：css->#vehicleManage_tables_div_queyFrom0_form0_text0_show，内容：‘湘FA6070’输入成功，用时1.2510716915130615.
+2019-03-29 14:47:55,660 - root - INFO - SUCCESS    点击元素：css->#vehicleManage_tables_div_queyFrom0_form1_button0_btn，用时：0.17701005935668945
+2019-03-29 14:47:55,915 - root - INFO - SUCCESS    截图保存成功，地址为f:/my_test/report/2019-03-29/image/,用时0.2540144920349121
+2019-03-29 14:47:55,921 - root - INFO - SUCCESS    等待 5 秒钟
+2019-03-29 14:48:01,942 - root - INFO - FAIL       未能点击元素css->#vehicleManage_tables_table > tbody:nth-child(1) > tr:nth-child(1).
+2019-03-29 14:48:02,219 - root - INFO - SUCCESS    点击元素：css->#vehicleManage_tables_div_queyFrom0_form1_button1_btn，用时：0.24601411819458008
+2019-03-29 14:48:08,228 - root - INFO - FAIL       未能点击元素css->#layui-layer5 > div.layui-layer-btn > a.layui-layer-btn0.
+2019-03-29 14:48:30,254 - root - INFO - SUCCESS    退出浏览器并清除临时文件，用时3.919224262237549
+2019-03-29 14:48:30,255 - root - INFO - ################################ End ################################
+2019-03-29 14:49:05,746 - root - INFO - ############################### START ###############################
+2019-03-29 14:49:15,661 - root - INFO - SUCCESS    新建浏览器: firefox, 用时 9.914566993713379 秒
+2019-03-29 14:49:15,932 - root - INFO - SUCCESS    浏览器窗口最大化, 用时：0.26801538467407227 
+2019-03-29 14:49:18,671 - root - INFO - SUCCESS    成功打开链接：https://www.hunanlwlk.com/，用时2.736156463623047.
+2019-03-29 14:49:18,722 - root - INFO - SUCCESS    元素：css->#txtUser，内容：‘js002’输入成功，用时0.049002885818481445.
+2019-03-29 14:49:18,776 - root - INFO - SUCCESS    元素：css->#txtPwd，内容：‘qwe123456’输入成功，用时0.054003000259399414.
+2019-03-29 14:49:20,760 - root - INFO - SUCCESS    点击元素：css->.login-btn，用时：1.9831135272979736
+2019-03-29 14:49:21,173 - root - INFO - SUCCESS    移动到元素: <css->#home-down-icon-level>, 用时 0.40702342987060547
+2019-03-29 14:49:21,419 - root - INFO - SUCCESS    点击元素：css->#base_info_level，用时：0.24401402473449707
+2019-03-29 14:49:22,503 - root - INFO - SUCCESS    元素：css->#vehicleManage_tables_div_queyFrom0_form0_text0_show，内容：‘湘FA6070’输入成功，用时1.083061933517456.
+2019-03-29 14:49:22,842 - root - INFO - SUCCESS    点击元素：css->#vehicleManage_tables_div_queyFrom0_form1_button0_btn，用时：0.33801913261413574
+2019-03-29 14:49:22,930 - root - INFO - SUCCESS    截图保存成功，地址为f:/my_test/report/2019-03-29/image/,用时0.08600473403930664
+2019-03-29 14:49:22,937 - root - INFO - SUCCESS    等待 5 秒钟
+2019-03-29 14:49:28,951 - root - INFO - FAIL       未能点击元素css->#vehicleManage_tables_table > tbody:nth-child(1) > tr:nth-child(1).
+2019-03-29 14:54:40,919 - root - INFO - ############################### START ###############################
+2019-03-29 14:54:49,863 - root - INFO - SUCCESS    新建浏览器: firefox, 用时 8.942511558532715 秒
+2019-03-29 14:54:50,150 - root - INFO - SUCCESS    浏览器窗口最大化, 用时：0.28401637077331543 
+2019-03-29 14:54:52,563 - root - INFO - SUCCESS    成功打开链接：https://www.hunanlwlk.com/，用时2.4131381511688232.
+2019-03-29 14:54:52,613 - root - INFO - SUCCESS    元素：css->#txtUser，内容：‘js002’输入成功，用时0.0500025749206543.
+2019-03-29 14:54:52,676 - root - INFO - SUCCESS    元素：css->#txtPwd，内容：‘qwe123456’输入成功，用时0.06200361251831055.
+2019-03-29 14:54:54,660 - root - INFO - SUCCESS    点击元素：css->.login-btn，用时：1.9831132888793945
+2019-03-29 14:54:56,696 - root - INFO - SUCCESS    移动到元素: <css->#home-down-icon-level>, 用时 2.034116268157959
+2019-03-29 14:54:57,010 - root - INFO - SUCCESS    点击元素：css->#base_info_level，用时：0.31201767921447754
+2019-03-29 14:54:58,196 - root - INFO - SUCCESS    元素：css->#vehicleManage_tables_div_queyFrom0_form0_text0_show，内容：‘湘FA6070’输入成功，用时1.185067892074585.
+2019-03-29 14:54:58,445 - root - INFO - SUCCESS    点击元素：css->#vehicleManage_tables_div_queyFrom0_form1_button0_btn，用时：0.24701404571533203
+2019-03-29 14:55:03,493 - root - INFO - FAIL       无法获取元素文本 元素: <css->/html/body/div[1]/div[2]/div[2]/div[2]/div/div/div/div/div/div[2]/div/div[2]/div/table/thead/tr/th[1]>, 用时 5.048288822174072 
+2019-03-29 14:55:40,181 - root - INFO - SUCCESS    退出浏览器并清除临时文件，用时36.51408839225769
+2019-03-29 14:55:40,183 - root - INFO - ################################ End ################################
+2019-03-29 14:55:45,516 - root - INFO - ############################### START ###############################
+2019-03-29 14:55:54,515 - root - INFO - SUCCESS    新建浏览器: firefox, 用时 8.998514890670776 秒
+2019-03-29 14:55:54,823 - root - INFO - SUCCESS    浏览器窗口最大化, 用时：0.30701732635498047 
+2019-03-29 14:55:56,627 - root - INFO - SUCCESS    成功打开链接：https://www.hunanlwlk.com/，用时1.804103136062622.
+2019-03-29 14:55:56,694 - root - INFO - SUCCESS    元素：css->#txtUser，内容：‘js002’输入成功，用时0.06600403785705566.
+2019-03-29 14:55:56,732 - root - INFO - SUCCESS    元素：css->#txtPwd，内容：‘qwe123456’输入成功，用时0.03800225257873535.
+2019-03-29 14:55:59,928 - root - INFO - SUCCESS    点击元素：css->.login-btn，用时：3.194182872772217
+2019-03-29 14:56:00,306 - root - INFO - SUCCESS    移动到元素: <css->#home-down-icon-level>, 用时 0.3760216236114502
+2019-03-29 14:56:00,544 - root - INFO - SUCCESS    点击元素：css->#base_info_level，用时：0.23801326751708984
+2019-03-29 14:56:01,586 - root - INFO - SUCCESS    元素：css->#vehicleManage_tables_div_queyFrom0_form0_text0_show，内容：‘湘FA6070’输入成功，用时1.0400593280792236.
+2019-03-29 14:56:01,731 - root - INFO - SUCCESS    点击元素：css->#vehicleManage_tables_div_queyFrom0_form1_button0_btn，用时：0.14500808715820312
+2019-03-29 14:56:01,812 - root - INFO - SUCCESS    获取元素文本 元素: <xpath->/html/body/div[1]/div[2]/div[2]/div[2]/div/div/div/div/div/div[2]/div/div[2]/div/table/thead/tr/th[1]>, 用时 0.07900452613830566 
+2019-03-29 14:56:04,515 - root - INFO - SUCCESS    退出浏览器并清除临时文件，用时2.7021543979644775
+2019-03-29 14:56:04,515 - root - INFO - ################################ End ################################
+2019-03-29 14:57:32,115 - root - INFO - ############################### START ###############################
+2019-03-29 14:57:41,725 - root - INFO - SUCCESS    新建浏览器: firefox, 用时 9.609549522399902 秒
+2019-03-29 14:57:42,357 - root - INFO - SUCCESS    浏览器窗口最大化, 用时：0.6300363540649414 
+2019-03-29 14:57:46,418 - root - INFO - SUCCESS    成功打开链接：https://www.hunanlwlk.com/，用时4.058232069015503.
+2019-03-29 14:57:46,488 - root - INFO - SUCCESS    元素：css->#txtUser，内容：‘js002’输入成功，用时0.06800365447998047.
+2019-03-29 14:57:46,513 - root - INFO - SUCCESS    元素：css->#txtPwd，内容：‘qwe123456’输入成功，用时0.02300119400024414.
+2019-03-29 14:57:48,816 - root - INFO - SUCCESS    点击元素：css->.login-btn，用时：2.3031320571899414
+2019-03-29 14:57:50,203 - root - INFO - SUCCESS    移动到元素: <css->#home-down-icon-level>, 用时 1.3840789794921875
+2019-03-29 14:57:50,514 - root - INFO - SUCCESS    点击元素：css->#base_info_level，用时：0.3090174198150635
+2019-03-29 14:57:51,851 - root - INFO - SUCCESS    元素：css->#vehicleManage_tables_div_queyFrom0_form0_text0_show，内容：‘湘FA6070’输入成功，用时1.3370766639709473.
+2019-03-29 14:57:52,080 - root - INFO - SUCCESS    点击元素：css->#vehicleManage_tables_div_queyFrom0_form1_button0_btn，用时：0.2280130386352539
+2019-03-29 14:57:53,148 - root - INFO - SUCCESS    获取元素文本 元素: <xpath->/html/body/div[1]/div[2]/div[2]/div[2]/div/div/div/div/div/div[2]/div/div[2]/div/table/tbody/tr/td[2]>, 用时 1.067060947418213 
+2019-03-29 14:57:53,446 - root - INFO - SUCCESS    点击元素：xpath->/html/body/div[1]/div[2]/div[2]/div[2]/div/div/div/div/div/div[2]/div/div[2]/div/table/tbody/tr/td[2]，用时：0.24801421165466309
+2019-03-29 14:57:59,066 - root - INFO - SUCCESS    退出浏览器并清除临时文件，用时5.619321346282959
+2019-03-29 14:57:59,067 - root - INFO - ################################ End ################################
+2019-03-29 14:58:39,000 - root - INFO - ############################### START ###############################
+2019-03-29 14:58:53,080 - root - INFO - SUCCESS    新建浏览器: firefox, 用时 14.078805446624756 秒
+2019-03-29 14:58:53,478 - root - INFO - SUCCESS    浏览器窗口最大化, 用时：0.3960227966308594 
+2019-03-29 14:58:56,371 - root - INFO - SUCCESS    成功打开链接：https://www.hunanlwlk.com/，用时2.891165018081665.
+2019-03-29 14:58:56,487 - root - INFO - SUCCESS    元素：css->#txtUser，内容：‘js002’输入成功，用时0.11500668525695801.
+2019-03-29 14:58:56,620 - root - INFO - SUCCESS    元素：css->#txtPwd，内容：‘qwe123456’输入成功，用时0.13200736045837402.
+2019-03-29 14:58:58,868 - root - INFO - SUCCESS    点击元素：css->.login-btn，用时：2.2481284141540527
+2019-03-29 14:58:59,965 - root - INFO - SUCCESS    移动到元素: <css->#home-down-icon-level>, 用时 1.0410597324371338
+2019-03-29 14:59:01,237 - root - INFO - SUCCESS    点击元素：css->#base_info_level，用时：1.2710726261138916
+2019-03-29 14:59:04,731 - root - INFO - SUCCESS    元素：css->#vehicleManage_tables_div_queyFrom0_form0_text0_show，内容：‘湘FA6070’输入成功，用时3.4921998977661133.
+2019-03-29 14:59:05,072 - root - INFO - SUCCESS    点击元素：css->#vehicleManage_tables_div_queyFrom0_form1_button0_btn，用时：0.3410193920135498
+2019-03-29 14:59:07,653 - root - INFO - SUCCESS    获取元素文本 元素: <xpath->/html/body/div[1]/div[2]/div[2]/div[2]/div/div/div/div/div/div[2]/div/div[2]/div/table/tbody/tr/td[2]>, 用时 2.5801475048065186 
+2019-03-29 14:59:07,771 - root - INFO - FAIL       未能点击元素css->.odd.
+2019-03-29 14:59:19,689 - root - INFO - SUCCESS    退出浏览器并清除临时文件，用时11.915681600570679
+2019-03-29 14:59:19,689 - root - INFO - ################################ End ################################
+2019-03-29 15:00:43,545 - root - INFO - ############################### START ###############################
+2019-03-29 15:01:00,142 - root - INFO - SUCCESS    新建浏览器: firefox, 用时 16.59494924545288 秒
+2019-03-29 15:01:00,574 - root - INFO - SUCCESS    浏览器窗口最大化, 用时：0.43102455139160156 
+2019-03-29 15:01:03,708 - root - INFO - SUCCESS    成功打开链接：https://www.hunanlwlk.com/，用时3.133179187774658.
+2019-03-29 15:01:03,788 - root - INFO - SUCCESS    元素：css->#txtUser，内容：‘js002’输入成功，用时0.08000469207763672.
+2019-03-29 15:01:03,825 - root - INFO - SUCCESS    元素：css->#txtPwd，内容：‘qwe123456’输入成功，用时0.036002159118652344.
+2019-03-29 15:01:06,897 - root - INFO - SUCCESS    点击元素：css->.login-btn，用时：3.0701756477355957
+2019-03-29 15:01:07,322 - root - INFO - SUCCESS    移动到元素: <css->#home-down-icon-level>, 用时 0.42302441596984863
+2019-03-29 15:01:07,582 - root - INFO - SUCCESS    点击元素：css->#base_info_level，用时：0.2580146789550781
+2019-03-29 15:01:08,629 - root - INFO - SUCCESS    元素：css->#vehicleManage_tables_div_queyFrom0_form0_text0_show，内容：‘湘FA6070’输入成功，用时1.0460598468780518.
+2019-03-29 15:01:08,875 - root - INFO - SUCCESS    点击元素：css->#vehicleManage_tables_div_queyFrom0_form1_button0_btn，用时：0.24501395225524902
+2019-03-29 15:01:09,981 - root - INFO - SUCCESS    获取元素文本 元素: <css->#vehicleManage_tables_table > tbody > tr > td:nth-child(2)>, 用时 1.1040632724761963 
+2019-03-29 15:01:10,048 - root - INFO - FAIL       未能点击元素css->#vehicleManage_tables_table > tbody > tr.
+2019-03-29 15:01:13,926 - root - INFO - SUCCESS    退出浏览器并清除临时文件，用时3.8772218227386475
+2019-03-29 15:01:13,927 - root - INFO - ################################ End ################################
+2019-03-29 15:07:59,634 - root - INFO - ############################### START ###############################
+2019-03-29 15:08:11,163 - root - INFO - SUCCESS    新建浏览器: firefox, 用时 11.528659105300903 秒
+2019-03-29 15:08:11,443 - root - INFO - SUCCESS    浏览器窗口最大化, 用时：0.27901601791381836 
+2019-03-29 15:08:14,841 - root - INFO - SUCCESS    成功打开链接：https://www.hunanlwlk.com/，用时3.3961942195892334.
+2019-03-29 15:08:15,151 - root - INFO - SUCCESS    元素：css->#txtUser，内容：‘js002’输入成功，用时0.3080174922943115.
+2019-03-29 15:08:15,251 - root - INFO - SUCCESS    元素：css->#txtPwd，内容：‘qwe123456’输入成功，用时0.09700560569763184.
+2019-03-29 15:08:17,960 - root - INFO - SUCCESS    点击元素：css->.login-btn，用时：2.7061548233032227
+2019-03-29 15:08:19,802 - root - INFO - SUCCESS    移动到元素: <css->#home-down-icon-level>, 用时 1.8381054401397705
+2019-03-29 15:08:19,995 - root - INFO - FAIL       未能点击元素css->#base_info_level.
+2019-03-29 15:08:25,298 - root - INFO - FAIL       元素：css->#vehicleManage_tables_div_queyFrom0_form0_text0_show，内容：‘湘FA6070’输入是吧，用时5.301303148269653.
+2019-03-29 15:08:29,057 - root - INFO - SUCCESS    退出浏览器并清除临时文件，用时3.6592092514038086
+2019-03-29 15:08:29,058 - root - INFO - ################################ End ################################
+2019-03-29 15:09:48,005 - root - INFO - ############################### START ###############################
+2019-03-29 15:09:56,559 - root - INFO - SUCCESS    新建浏览器: firefox, 用时 8.5504891872406 秒
+2019-03-29 15:09:56,834 - root - INFO - SUCCESS    浏览器窗口最大化, 用时：0.27301573753356934 
+2019-03-29 15:09:58,892 - root - INFO - SUCCESS    成功打开链接：https://www.hunanlwlk.com/，用时2.0571177005767822.
+2019-03-29 15:09:58,958 - root - INFO - SUCCESS    元素：css->#txtUser，内容：‘js002’输入成功，用时0.06100320816040039.
+2019-03-29 15:09:59,013 - root - INFO - SUCCESS    元素：css->#txtPwd，内容：‘qwe123456’输入成功，用时0.054003238677978516.
+2019-03-29 15:10:02,898 - root - INFO - SUCCESS    点击元素：css->.login-btn，用时：3.8832218647003174
+2019-03-29 15:10:03,974 - root - INFO - SUCCESS    移动到元素: <css->#home-down-icon-level>, 用时 1.0740611553192139
+2019-03-29 15:10:04,333 - root - INFO - SUCCESS    点击元素：css->#base_info_level，用时：0.3560206890106201
+2019-03-29 15:10:05,415 - root - INFO - SUCCESS    元素：css->#vehicleManage_tables_div_queyFrom0_form0_text0_show，内容：‘湘FA6070’输入成功，用时1.07906174659729.
+2019-03-29 15:10:05,624 - root - INFO - SUCCESS    点击元素：css->#vehicleManage_tables_div_queyFrom0_form1_button0_btn，用时：0.20701169967651367
+2019-03-29 15:10:05,660 - root - INFO - SUCCESS    获取元素文本 元素: <xpath->/html/body/div[1]/div[2]/div[2]/div[2]/div/div/div/div/div/div[2]/div/div[2]/div/table/tbody>, 用时 0.03500175476074219 
+2019-03-29 15:10:05,696 - root - INFO - FAIL       未能点击元素xpath->/html/body/div[1]/div[2]/div[2]/div[2]/div/div/div/div/div/div[2]/div/div[2]/div/table/tbody.
+2019-03-29 15:10:09,333 - root - INFO - SUCCESS    退出浏览器并清除临时文件，用时3.6352078914642334
+2019-03-29 15:10:09,334 - root - INFO - ################################ End ################################
+2019-03-29 15:13:55,760 - root - INFO - ############################### START ###############################
+2019-03-29 15:14:06,552 - root - INFO - SUCCESS    新建浏览器: firefox, 用时 10.790616989135742 秒
+2019-03-29 15:14:06,863 - root - INFO - SUCCESS    浏览器窗口最大化, 用时：0.3090178966522217 
+2019-03-29 15:14:09,159 - root - INFO - SUCCESS    成功打开链接：https://www.hunanlwlk.com/，用时2.2931313514709473.
+2019-03-29 15:14:09,230 - root - INFO - SUCCESS    元素：css->#txtUser，内容：‘js002’输入成功，用时0.07000398635864258.
+2019-03-29 15:14:09,285 - root - INFO - SUCCESS    元素：css->#txtPwd，内容：‘qwe123456’输入成功，用时0.05300331115722656.
+2019-03-29 15:14:11,619 - root - INFO - SUCCESS    点击元素：css->.login-btn，用时：2.3331334590911865
+2019-03-29 15:14:11,991 - root - INFO - SUCCESS    移动到元素: <css->#home-down-icon-level>, 用时 0.3690211772918701
+2019-03-29 15:14:12,771 - root - INFO - SUCCESS    点击元素：css->#base_info_level，用时：0.7770445346832275
+2019-03-29 15:14:13,872 - root - INFO - SUCCESS    元素：css->#vehicleManage_tables_div_queyFrom0_form0_text0_show，内容：‘湘FA6070’输入成功，用时1.0990626811981201.
+2019-03-29 15:14:14,010 - root - INFO - SUCCESS    点击元素：css->#vehicleManage_tables_div_queyFrom0_form1_button0_btn，用时：0.13600778579711914
+2019-03-29 15:14:16,205 - root - INFO - SUCCESS    获取元素文本 元素: <xpath->/html/body/div[1]/div[2]/div[2]/div[2]/div/div/div/div/div/div[2]/div/div[2]/div/table/tbody/tr>, 用时 2.1951255798339844 
+2019-03-29 15:14:16,227 - root - INFO - FAIL       未能点击元素xpath->/html/body/div[1]/div[2]/div[2]/div[2]/div/div/div/div/div/div[2]/div/div[2]/div/table/tbody/tr.
+2019-03-29 15:14:20,110 - root - INFO - SUCCESS    退出浏览器并清除临时文件，用时3.8822224140167236
+2019-03-29 15:14:20,111 - root - INFO - ################################ End ################################
+2019-03-29 15:42:00,700 - root - INFO - ############################### START ###############################
+2019-03-29 15:42:10,383 - root - INFO - SUCCESS    新建浏览器: chrome, 用时 9.681553840637207 秒
+2019-03-29 15:42:11,496 - root - INFO - SUCCESS    浏览器窗口最大化, 用时：1.1120638847351074 
+2019-03-29 15:42:11,993 - root - INFO - SUCCESS    成功打开链接：https://www.hunanlwlk.com/，用时0.49602842330932617.
+2019-03-29 15:42:12,113 - root - INFO - SUCCESS    元素：css->#txtUser，内容：‘js002’输入成功，用时0.11900687217712402.
+2019-03-29 15:42:12,250 - root - INFO - SUCCESS    元素：css->#txtPwd，内容：‘qwe123456’输入成功，用时0.13600802421569824.
+2019-03-29 15:42:14,268 - root - INFO - SUCCESS    点击元素：css->.login-btn，用时：2.016115188598633
+2019-03-29 15:42:14,348 - root - INFO - SUCCESS    移动到元素: <css->#home-down-icon-level>, 用时 0.07900452613830566
+2019-03-29 15:42:14,526 - root - INFO - SUCCESS    点击元素：css->#base_info_level，用时：0.17701005935668945
+2019-03-29 15:42:16,483 - root - INFO - SUCCESS    元素：css->#vehicleManage_tables_div_queyFrom0_form0_text0_show，内容：‘湘FA6070’输入成功，用时1.9561119079589844.
+2019-03-29 15:42:16,653 - root - INFO - SUCCESS    点击元素：css->#vehicleManage_tables_div_queyFrom0_form1_button0_btn，用时：0.16800951957702637
+2019-03-29 15:42:17,887 - root - INFO - SUCCESS    获取元素文本 元素: <xpath->/html/body/div[1]/div[2]/div[2]/div[2]/div/div/div/div/div/div[2]/div/div[2]/div/table/tbody/tr>, 用时 1.2320704460144043 
+2019-03-29 15:42:17,975 - root - INFO - SUCCESS    点击元素：xpath->/html/body/div[1]/div[2]/div[2]/div[2]/div/div/div/div/div/div[2]/div/div[2]/div/table/tbody/tr，用时：0.08500480651855469
+2019-03-29 15:42:21,094 - root - INFO - SUCCESS    退出浏览器并清除临时文件，用时3.117178201675415
+2019-03-29 15:42:21,095 - root - INFO - ################################ End ################################
+2019-03-29 15:58:17,009 - root - INFO - ############################### START ###############################
+2019-03-29 15:58:23,514 - root - INFO - SUCCESS    新建浏览器: chrome, 用时 6.502371788024902 秒
+2019-03-29 15:58:24,671 - root - INFO - SUCCESS    浏览器窗口最大化, 用时：1.1560664176940918 
+2019-03-29 15:58:25,203 - root - INFO - SUCCESS    成功打开链接：https://www.hunanlwlk.com/，用时0.5310306549072266.
+2019-03-29 15:58:25,344 - root - INFO - SUCCESS    元素：css->#txtUser，内容：‘js002’输入成功，用时0.14000773429870605.
+2019-03-29 15:58:25,904 - root - INFO - SUCCESS    元素：css->#txtPwd，内容：‘qwe123456’输入成功，用时0.5570318698883057.
+2019-03-29 15:58:27,979 - root - INFO - SUCCESS    点击元素：css->.login-btn，用时：2.0751185417175293
+2019-03-29 15:58:28,305 - root - INFO - SUCCESS    移动到元素: <css->#home-down-icon-level>, 用时 0.32301855087280273
+2019-03-29 15:58:28,713 - root - INFO - SUCCESS    点击元素：css->#base_info_level，用时：0.4060232639312744
+2019-03-29 15:58:31,041 - root - INFO - SUCCESS    元素：css->#vehicleManage_tables_div_queyFrom0_form0_text0_show，内容：‘湘FA6070’输入成功，用时2.3241331577301025.
+2019-03-29 15:58:31,325 - root - INFO - SUCCESS    点击元素：css->#vehicleManage_tables_div_queyFrom0_form1_button0_btn，用时：0.28401613235473633
+2019-03-29 15:58:32,505 - root - INFO - SUCCESS    获取元素文本 元素: <xpath->/html/body/div[1]/div[2]/div[2]/div[2]/div/div/div/div/div/div[2]/div/div[2]/div/table/tbody/tr>, 用时 1.1780674457550049 
+2019-03-29 15:58:32,639 - root - INFO - SUCCESS    点击元素：xpath->/html/body/div[1]/div[2]/div[2]/div[2]/div/div/div/div/div/div[2]/div/div[2]/div/table/tbody/tr，用时：0.13300776481628418
+2019-03-29 15:58:35,867 - root - INFO - SUCCESS    退出浏览器并清除临时文件，用时3.227184534072876
+2019-03-29 15:58:35,868 - root - INFO - ################################ End ################################
+2019-03-29 15:58:44,778 - root - INFO - ############################### START ###############################
+2019-03-29 15:59:05,765 - root - INFO - SUCCESS    新建浏览器: firefox, 用时 20.987200498580933 秒
+2019-03-29 15:59:06,140 - root - INFO - SUCCESS    浏览器窗口最大化, 用时：0.3740215301513672 
+2019-03-29 15:59:09,371 - root - INFO - SUCCESS    成功打开链接：https://www.hunanlwlk.com/，用时3.23018479347229.
+2019-03-29 15:59:09,492 - root - INFO - SUCCESS    元素：css->#txtUser，内容：‘js002’输入成功，用时0.12000703811645508.
+2019-03-29 15:59:09,755 - root - INFO - SUCCESS    元素：css->#txtPwd，内容：‘qwe123456’输入成功，用时0.2610146999359131.
+2019-03-29 15:59:12,104 - root - INFO - SUCCESS    点击元素：css->.login-btn，用时：2.3471343517303467
+2019-03-29 15:59:12,545 - root - INFO - SUCCESS    移动到元素: <css->#home-down-icon-level>, 用时 0.43802523612976074
+2019-03-29 15:59:13,238 - root - INFO - SUCCESS    点击元素：css->#base_info_level，用时：0.6920394897460938
+2019-03-29 15:59:14,322 - root - INFO - SUCCESS    元素：css->#vehicleManage_tables_div_queyFrom0_form0_text0_show，内容：‘湘FA6070’输入成功，用时1.082061767578125.
+2019-03-29 15:59:14,794 - root - INFO - SUCCESS    点击元素：css->#vehicleManage_tables_div_queyFrom0_form1_button0_btn，用时：0.47002673149108887
+2019-03-29 15:59:15,967 - root - INFO - SUCCESS    获取元素文本 元素: <xpath->/html/body/div[1]/div[2]/div[2]/div[2]/div/div/div/div/div/div[2]/div/div[2]/div/table/tbody/tr>, 用时 1.1710667610168457 
+2019-03-29 15:59:20,822 - root - INFO - SUCCESS    退出浏览器并清除临时文件，用时4.457254886627197
+2019-03-29 15:59:20,823 - root - INFO - ################################ End ################################
