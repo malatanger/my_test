@@ -35,9 +35,12 @@ class Browser_engine(object):
                 driver = webdriver.Chrome()
 
             logger.info(
-                "{0} 新建浏览器: {1}, 用时 {2} 秒".format(success, browsertype, time.time() - t1))
+                "{0} 新建浏览器: {1}, 用时 {2} 秒".format(success, browsertype, time.time() - t1)
+            )
         except Exception:
-            raise NameError("未发现 {0} 浏览器,你可以输入 'ie','chrome','firefox'.".format(browsertype))
+            raise NameError(
+                "未发现 {0} 浏览器,你可以输入 'ie','chrome','firefox'.".format(browsertype)
+            )
 
         return driver
 
@@ -52,9 +55,13 @@ class pyselenium(Browser_engine):
         t1 = time.time()
         try:
             self.driver.get(url)
-            self.my_print("{0} 成功打开链接：{1}，用时{2}.".format(success, url, time.time() - t1))
+            self.my_print(
+                "{0} 成功打开链接：{1}，用时{2}.".format(success, url, time.time() - t1)
+            )
         except Exception:
-            self.my_print("{0} 打开链接失败.".format(fail))
+            self.my_print(
+                "{0} 打开链接失败.".format(fail)
+            )
             raise
 
     def element_wait(self, css, sec=5):
@@ -181,18 +188,22 @@ class pyselenium(Browser_engine):
         """截图"""
         t1 = time.time()
         date = time.strftime('%Y-%m-%d')
-        file_path = report_path + date + "/image/"
+        file_path = report_path + date
+        image_path = file_path + "/image/"
         isExists = os.path.exists(file_path)
+        isExists2 = os.path.exists(image_path)
         if not isExists:
             os.mkdir(file_path)
+            if not isExists2:
+                os.mkdir(image_path)
         date = time.strftime('%Y%m%d%H%M%S', time.localtime())
-        screenname = file_path + date + ".png"
+        screenname = image_path + date + ".png"
         try:
             picture_url = self.driver.get_screenshot_as_file(screenname)
             if picture_url is True:
                 print('screenshot:  {0}.png'.format(date))
                 self.my_print(
-                    "{0} 截图保存成功，地址为{1},用时{2}".format(success, file_path, time.time() - t1)
+                    "{0} 截图保存成功，地址为{1},用时{2}".format(success, image_path, time.time() - t1)
                 )
             else:
                 self.my_print("{0} 截图保存失败.".format(warning))
@@ -211,10 +222,10 @@ class pyselenium(Browser_engine):
                 "{0} 点击元素：{1}，用时：{2}".format(success, css, time.time() - t1)
             )
         except Exception:
-            self.my_print(
-                "{0} 未能点击元素{1}.".format(fail, css)
-            )
-
+            # self.my_print(
+            #     "{0} 未能点击元素{1}.".format(fail, css)
+            # )
+            raise
     def move_to_element(self, css):
         """
         Mouse over the element.
@@ -227,18 +238,59 @@ class pyselenium(Browser_engine):
             self.element_wait(css)
             el = self.get_element(css)
             ActionChains(self.driver).move_to_element(el).perform()
-            self.my_print("{0} 移动到元素: <{1}>, 用时 {2}".format(success, css, time.time() - t1))
+            self.my_print(
+                "{0} 移动到元素: <{1}>, 用时 {2}".format(success, css, time.time() - t1)
+            )
         except Exception:
-            self.my_print("{0} 无法移动到元素: <{1}>, 用时 {2}".format(fail, css, time.time() - t1))
+            self.my_print(
+                "{0} 无法移动到元素: <{1}>, 用时 {2}".format(fail, css, time.time() - t1)
+            )
             raise
 
+    def wait(self, secs):
+        """
+        Implicitly wait.All elements on the page.
+        隐性等待。
+        Usage:
+        driver.wait(10)
+        """
+        self.driver.implicitly_wait(secs)
+        self.my_print(
+            "{0} 等待 {1} 秒钟".format(success, secs)
+        )
+
+    def max_window(self):
+        """
+        Set browser window maximized.
+        最大化浏览器。
+        Usage:
+        driver.max_window()
+        """
+        t1 = time.time()
+        self.driver.maximize_window()
+        self.my_print(
+            "{0} 浏览器窗口最大化, 用时：{1} ".format(success, time.time() - t1)
+        )
+
+    def get_text(self, css):
+        """
+        Get element text information.
+        获取元素的文本值。
+        Usage:
+        driver.get_text("id->kw")
+        """
+        t1 = time.time()
+        try:
+            self.element_wait(css)
+            text = self.get_element(css).text
+            self.my_print(
+                "{0} 获取元素文本 元素: <{1}>, 用时 {2} ".format(success, css, time.time() - t1)
+            )
+            return text
+        except Exception:
+            self.my_print(
+                "{0} 无法获取元素文本 元素: <{1}>, 用时 {2} ".format(fail, css, time.time() - t1)
+            )
+            raise
 
 # if __name__ == "__main__":
-#     # dr = Browser_engine()
-#     # dr.get_browser()
-#     driver = pyselenium()
-#     driver.open("https://www.baidu.com/")
-#     driver.type("id->kw","123")
-#
-#     driver.take_screenshot()
-#     driver.close_browser()
