@@ -10,15 +10,14 @@ para = data.dict_data()
 class Hunan_pages_login(pyselenium):
     """登录"""
 
-    def open_Hunan(self):
-        URL = para[0]["url"]
+    def open_Hunan(self,URL):
+
         self.open(URL)
 
-    def type_username(self):
-        username = para[0]["username"]
+    def type_username(self,username):
         self.type("css->#txtUser", username)
 
-    def type_password(self):
+    def type_password(self,password):
         password = para[0]["password"]
         self.type("css->#txtPwd", password)
 
@@ -41,9 +40,8 @@ class Hunan_pages_Synch(pyselenium):
             self.type("css->#vehicleManage_tables_div_queyFrom0_form0_text0_show", carNUM)
             i += 1
 
-    def type_carNum(self):
-        carNUM = para[0]["carNUM"]
-        self.type("css->#vehicleManage_tables_div_queyFrom0_form0_text0_show", carNUM)
+    def type_carNum(self,car_numeber):
+        self.type("css->#vehicleManage_tables_div_queyFrom0_form0_text0_show", car_numeber)
 
     def click_select_bt(self):
         self.click("css->#vehicleManage_tables_div_queyFrom0_form1_button0_btn")

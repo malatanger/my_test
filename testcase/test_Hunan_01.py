@@ -4,6 +4,11 @@ from common.basepage import Browser_engine
 from common.log import Log
 from pages import Hunan_pages
 import time
+from config import datas_path
+from common.get_parameter import ExcelUtil
+
+data = ExcelUtil(datas_path + "Hunan_datas.xlsx", "Sheet1")
+para = data.dict_data()
 
 class Hunan_test(unittest.TestCase):
 
@@ -18,9 +23,9 @@ class Hunan_test(unittest.TestCase):
         #driver = Browser_engine().get_browser()
         cls.index = Hunan_pages.Hunan_pages_login(driver)
         cls.index.max_window()
-        cls.index.open_Hunan()
-        cls.index.type_username()
-        cls.index.type_password()
+        cls.index.open_Hunan(para["1"]["url"])
+        cls.index.type_username(para[0]["username"])
+        cls.index.type_password(para[0]["password"])
         cls.index.click_login()
 
     @classmethod
@@ -33,7 +38,7 @@ class Hunan_test(unittest.TestCase):
         self.index = Hunan_pages.Hunan_pages_Synch(driver)
         self.index.move_to_settings()
         self.index.click_basicinformation()
-        self.index.type_carNum()
+        self.index.type_carNum(para[0]["carNUM"])
         self.index.click_select_bt()
         self.index.take_screenshot()
         self.index.click_carinfo()

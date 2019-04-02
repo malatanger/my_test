@@ -33,4 +33,4 @@ if __name__ == "__main__":
     sheetName = "Sheet1"
     data = ExcelUtil(filePath, sheetName)
     datalist = data.dict_data()
-    print(datalist[0])
+    print(datalist)
