@@ -226,6 +226,7 @@ class pyselenium(Browser_engine):
             #     "{0} 未能点击元素{1}.".format(fail, css)
             # )
             raise
+
     def move_to_element(self, css):
         """
         Mouse over the element.
@@ -284,7 +285,7 @@ class pyselenium(Browser_engine):
             self.element_wait(css)
             text = self.get_element(css).text
             self.my_print(
-                "{0} 获取元素文本 元素: <{1}>, 用时 {2} ".format(success, css, time.time() - t1)
+                "{0} 获取元素文本 元素: <{1}> 文本内容：<{2}>, 用时 {3} ".format(success, css, text, time.time() - t1)
             )
             return text
         except Exception:

@@ -1,10 +1,12 @@
 # coding:utf-8
 import xlrd
 
-class ExcelUtil:
-    def __init__(self, excel_path, sheet_name):
-        self.data = xlrd.open_workbook(excel_path)
-        self.table = self.data.sheet_by_name(sheet_name)
+
+class Data(object):
+    def __init__(self, filepath, sheetname):
+
+        self.data = xlrd.open_workbook(filepath)
+        self.table = self.data.sheet_by_name(sheetname)
         # 获取第一行作为key值
         self.keys = self.table.row_values(0)
         # 获取总行数
@@ -12,25 +14,27 @@ class ExcelUtil:
         # 获取总列数
         self.colNum = self.table.ncols
 
-    def dict_data(self):
-        if self.rowNum <= 1:
-            print("总行数小于1")
-        else:
-            mylist = []
-            j = 1
-            for i in range(self.rowNum - 1):
-                datadict = {}
-                # 从第二行取对应values值
-                values = self.table.row_values(j)
-                for x in range(self.colNum):
-                    datadict[self.keys[x]] = values[x]
-                mylist.append(datadict)
-                j += 1
-            return mylist
+    def get_data(self):
+        parameters_dict = []
+        keys = []
+        for i in range(self.rowNum - 1):
+            #获取除开第一行的
+            i += 1
+            parameters_keys = self.keys
+            parameters = self.table.row_values(i)
+            # num = self.table.col_values(1)
+            para = dict(zip(parameters_keys, parameters))
+            parameters_dict.append(para)
+        for i in range(len(parameters_dict)):
+            i += 1
+            keys.append(i)
+        paras = dict(zip(keys, parameters_dict))
+        return paras
+
 
 if __name__ == "__main__":
-    filePath = "F:\my_test\datas\Ganzhou_datas.xlsx"
+    filePath = "F:\my_test\datas\Hunan_datas.xlsx"
     sheetName = "Sheet1"
-    data = ExcelUtil(filePath, sheetName)
-    datalist = data.dict_data()
-    print(datalist)
+    d = Data(filePath, sheetName)
+    d1 = d.rowNum
+    print(d1)

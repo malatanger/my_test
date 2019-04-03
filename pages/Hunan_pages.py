@@ -1,10 +1,8 @@
 # coding:utf-8
 from common.basepage import pyselenium
-from common.get_parameter import ExcelUtil
+
 from config import datas_path
 
-data = ExcelUtil(datas_path + "Hunan_datas.xlsx", "Sheet1")
-para = data.dict_data()
 
 
 class Hunan_pages_login(pyselenium):
@@ -18,7 +16,7 @@ class Hunan_pages_login(pyselenium):
         self.type("css->#txtUser", username)
 
     def type_password(self,password):
-        password = para[0]["password"]
+
         self.type("css->#txtPwd", password)
 
     def click_login(self):
@@ -34,11 +32,11 @@ class Hunan_pages_Synch(pyselenium):
     def click_basicinformation(self):
         self.click("css->#base_info_level")
 
-    def type_carNums(self):
-        for i in range(5):
-            carNUM = para[i]["carNUM"]
-            self.type("css->#vehicleManage_tables_div_queyFrom0_form0_text0_show", carNUM)
-            i += 1
+    # def type_carNums(self):
+    #     for i in range(5):
+    #         carNUM = para[i]["carNUM"]
+    #         self.type("css->#vehicleManage_tables_div_queyFrom0_form0_text0_show", carNUM)
+    #         i += 1
 
     def type_carNum(self,car_numeber):
         self.type("css->#vehicleManage_tables_div_queyFrom0_form0_text0_show", car_numeber)
@@ -47,7 +45,7 @@ class Hunan_pages_Synch(pyselenium):
         self.click("css->#vehicleManage_tables_div_queyFrom0_form1_button0_btn")
 
     def click_carinfo(self):
-        self.click("css->#vehicleManage_tables_table > tbody:nth-child(1) > tr:nth-child(1)")
+        self.click("css->#vehicleManage_tables_table > tbody")
 
     def click_synch_bt(self):
         self.click("css->#vehicleManage_tables_div_queyFrom0_form1_button1_btn")
