@@ -222,18 +222,13 @@ class pyselenium(Browser_engine):
                 "{0} 点击元素：{1}，用时：{2}".format(success, css, time.time() - t1)
             )
         except Exception:
-            # self.my_print(
-            #     "{0} 未能点击元素{1}.".format(fail, css)
-            # )
+            self.my_print(
+                "{0} 未能点击元素{1}.".format(fail, css)
+            )
             raise
 
     def move_to_element(self, css):
-        """
-        Mouse over the element.
-        悬停元素。
-        Usage:
-        driver.move_to_element("id->kw")
-        """
+        """悬停元素"""
         t1 = time.time()
         try:
             self.element_wait(css)
@@ -249,24 +244,14 @@ class pyselenium(Browser_engine):
             raise
 
     def wait(self, secs):
-        """
-        Implicitly wait.All elements on the page.
-        隐性等待。
-        Usage:
-        driver.wait(10)
-        """
+        """隐性等待"""
         self.driver.implicitly_wait(secs)
         self.my_print(
             "{0} 等待 {1} 秒钟".format(success, secs)
         )
 
     def max_window(self):
-        """
-        Set browser window maximized.
-        最大化浏览器。
-        Usage:
-        driver.max_window()
-        """
+        """最大化浏览器"""
         t1 = time.time()
         self.driver.maximize_window()
         self.my_print(
@@ -274,12 +259,7 @@ class pyselenium(Browser_engine):
         )
 
     def get_text(self, css):
-        """
-        Get element text information.
-        获取元素的文本值。
-        Usage:
-        driver.get_text("id->kw")
-        """
+        """获取元素的文本值"""
         t1 = time.time()
         try:
             self.element_wait(css)
@@ -291,6 +271,22 @@ class pyselenium(Browser_engine):
         except Exception:
             self.my_print(
                 "{0} 无法获取元素文本 元素: <{1}>, 用时 {2} ".format(fail, css, time.time() - t1)
+            )
+            raise
+
+    def assert_text(self, text, css, sec):
+        """文本断言"""
+        t1 = time.time()
+        page_text = self.get_text(css)
+        try:
+            self.element_wait(css, sec)
+            assert text in page_text
+            self.my_print(
+                "{0} 断言通过 元素: <{1}>，断言文本：<{2}>, 用时 {3} ".format(success, css, text,time.time() - t1)
+            )
+        except Exception:
+            self.my_print(
+                "{0} 断言未通过 元素: <{1}>，断言文本：<{2}>, 用时 {3} ".format(fail, css, text, time.time() - t1)
             )
             raise
 

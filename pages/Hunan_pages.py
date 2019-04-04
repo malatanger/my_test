@@ -45,7 +45,7 @@ class Hunan_pages_Synch(pyselenium):
         self.click("css->#vehicleManage_tables_div_queyFrom0_form1_button0_btn")
 
     def click_carinfo(self):
-        self.click("css->#vehicleManage_tables_table > tbody")
+        self.click("css->#vehicleManage_tables_table > tbody > tr:nth-child(1)")
 
     def click_synch_bt(self):
         self.click("css->#vehicleManage_tables_div_queyFrom0_form1_button1_btn")
