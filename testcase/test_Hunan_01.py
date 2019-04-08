@@ -43,7 +43,7 @@ class Hunan_test(unittest.TestCase):
         self.index = Hunan_pages.Hunan_pages_Synch(driver)
         self.index.move_to_settings()
         self.index.click_basicinformation()
-        self.index.type_carNum(para[1]["carNUM"])
+        self.index.type_carNum(param[1]["carNUM"])
         self.index.click_select_bt()
         self.index.click_carinfo()
         self.index.click_synch_bt()

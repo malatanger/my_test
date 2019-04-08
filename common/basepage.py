@@ -35,7 +35,7 @@ class Browser_engine(object):
                 driver = webdriver.Chrome()
 
             logger.info(
-                "{0} 新建浏览器: {1}, 用时 {2} 秒".format(success, browsertype, time.time() - t1)
+                "{0} 新建浏览器: {1}, 用时 {:.2f} 秒.".format(success, browsertype, time.time() - t1)
             )
         except Exception:
             raise NameError(
@@ -56,7 +56,7 @@ class pyselenium(Browser_engine):
         try:
             self.driver.get(url)
             self.my_print(
-                "{0} 成功打开链接：{1}，用时{2}.".format(success, url, time.time() - t1)
+                "{0} 成功打开链接：{1}，用时 {:.2f} 秒.".format(success, url, time.time() - t1)
             )
         except Exception:
             self.my_print(
@@ -144,11 +144,11 @@ class pyselenium(Browser_engine):
             time.sleep(sec)
             el.send_keys(Keys.ENTER)
             self.my_print(
-                "{0} 元素：{1}，内容：‘{2}’输入成功，用时{3}.".format(success, css, text, time.time() - t1)
+                "{0} 元素：{1}，内容：‘{2}’输入成功， 用时 {:.2f} 秒.".format(success, css, text, time.time() - t1)
             )
         except Exception:
             self.my_print(
-                "{0} 元素：{1}，内容：‘{2}’输入是吧，用时{3}.".format(fail, css, text, time.time() - t1)
+                "{0} 元素：{1}，内容：‘{2}’输入是吧， 用时 {:.2f} 秒.".format(fail, css, text, time.time() - t1)
             )
             raise
 
@@ -160,11 +160,11 @@ class pyselenium(Browser_engine):
             el = self.get_element(css)
             el.send_keys(text)
             self.my_print(
-                "{0} 元素：{1}，内容：‘{2}’输入成功，用时{3}.".format(success, css, text, time.time() - t1)
+                "{0} 元素：{1}，内容：‘{2}’输入成功， 用时 {:.2f} 秒.".format(success, css, text, time.time() - t1)
             )
         except Exception:
             self.my_print(
-                "{0} 元素：{1}，内容：‘{2}’输入是吧，用时{3}.".format(fail, css, text, time.time() - t1)
+                "{0} 元素：{1}，内容：‘{2}’输入是吧， 用时 {:.2f} 秒.".format(fail, css, text, time.time() - t1)
             )
             raise
 
@@ -173,7 +173,7 @@ class pyselenium(Browser_engine):
         t1 = time.time()
         self.driver.quit()
         self.my_print(
-            "{0} 退出浏览器并清除临时文件，用时{1}".format(success, time.time() - t1)
+            "{0} 退出浏览器并清除临时文件， 用时 {:.2f} 秒.".format(success, time.time() - t1)
         )
 
     def F5(self):
@@ -194,8 +194,8 @@ class pyselenium(Browser_engine):
         isExists2 = os.path.exists(image_path)
         if not isExists:
             os.mkdir(file_path)
-            if not isExists2:
-                os.mkdir(image_path)
+        if not isExists2:
+            os.mkdir(image_path)
         date = time.strftime('%Y%m%d%H%M%S', time.localtime())
         screenname = image_path + date + ".png"
         try:
@@ -203,7 +203,7 @@ class pyselenium(Browser_engine):
             if picture_url is True:
                 print('screenshot:  {0}.png'.format(date))
                 self.my_print(
-                    "{0} 截图保存成功，地址为{1},用时{2}".format(success, image_path, time.time() - t1)
+                    "{0} 截图保存成功，地址为{1}， 用时 {:.2f} 秒.".format(success, image_path, time.time() - t1)
                 )
             else:
                 self.my_print("{0} 截图保存失败.".format(warning))
@@ -219,7 +219,7 @@ class pyselenium(Browser_engine):
             self.element_wait(css)
             self.get_element(css).click()
             self.my_print(
-                "{0} 点击元素：{1}，用时：{2}".format(success, css, time.time() - t1)
+                "{0} 点击元素：{1}， 用时 {:.2f} 秒.".format(success, css, time.time() - t1)
             )
         except Exception:
             self.my_print(
@@ -235,11 +235,11 @@ class pyselenium(Browser_engine):
             el = self.get_element(css)
             ActionChains(self.driver).move_to_element(el).perform()
             self.my_print(
-                "{0} 移动到元素: <{1}>, 用时 {2}".format(success, css, time.time() - t1)
+                "{0} 移动到元素: <{1}>, 用时 {:.2f} 秒.".format(success, css, time.time() - t1)
             )
         except Exception:
             self.my_print(
-                "{0} 无法移动到元素: <{1}>, 用时 {2}".format(fail, css, time.time() - t1)
+                "{0} 无法移动到元素: <{1}>, 用时 {:.2f} 秒.".format(fail, css, time.time() - t1)
             )
             raise
 
@@ -255,7 +255,7 @@ class pyselenium(Browser_engine):
         t1 = time.time()
         self.driver.maximize_window()
         self.my_print(
-            "{0} 浏览器窗口最大化, 用时：{1} ".format(success, time.time() - t1)
+            "{0} 浏览器窗口最大化, 用时 {:.2f} 秒.".format(success, time.time() - t1)
         )
 
     def get_text(self, css):
@@ -265,12 +265,12 @@ class pyselenium(Browser_engine):
             self.element_wait(css)
             text = self.get_element(css).text
             self.my_print(
-                "{0} 获取元素文本 元素: <{1}> 文本内容：<{2}>, 用时 {3} ".format(success, css, text, time.time() - t1)
+                "{0} 获取元素文本 元素: <{1}> 文本内容：<{2}>, 用时 {:.2f} 秒.".format(success, css, text, time.time() - t1)
             )
             return text
         except Exception:
             self.my_print(
-                "{0} 无法获取元素文本 元素: <{1}>, 用时 {2} ".format(fail, css, time.time() - t1)
+                "{0} 无法获取元素文本 元素: <{1}>, 用时 {:.2f} 秒.".format(fail, css, time.time() - t1)
             )
             raise
 
@@ -282,11 +282,12 @@ class pyselenium(Browser_engine):
             self.element_wait(css, sec)
             assert text in page_text
             self.my_print(
-                "{0} 断言通过 元素: <{1}>，断言文本：<{2}>, 用时 {3} ".format(success, css, text,time.time() - t1)
+                "{0} 断言通过 元素: <{1}>，断言文本：<{2}>, 用时 {:.2f} 秒.".format(success, css, text,time.time() - t1)
             )
         except Exception:
+            self.take_screenshot()
             self.my_print(
-                "{0} 断言未通过 元素: <{1}>，断言文本：<{2}>, 用时 {3} ".format(fail, css, text, time.time() - t1)
+                "{0} 断言未通过 元素: <{1}>，断言文本：<{2}>, 用时 {:.2f} 秒.".format(fail, css, text, time.time() - t1)
             )
             raise
 

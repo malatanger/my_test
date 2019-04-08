@@ -35,5 +35,5 @@ class Ganzhou_test(unittest.TestCase):
         logger.info('################################ End ################################')
 
     def test_01(self):
-        self.index = Ganzhou_pages.Ganzhou_pages_Tongjifenxi(driver)
-        self.index.click_tongji()
+        self.index = Ganzhou_pages.Ganzhou_pages_Statistics(driver)
+        self.index.click_Statistics()

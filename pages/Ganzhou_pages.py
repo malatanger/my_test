@@ -17,7 +17,7 @@ class Ganzhou_pages_login(pyselenium):
     def click_login(self):
         self.click("css->#btnLogin")
 
-class Ganzhou_pages_Tongjifenxi(pyselenium):
+class Ganzhou_pages_Statistics(pyselenium):
     """统计分析"""
-    def click_tongji(self):
+    def click_Statistics(self):
         self.click("css->.home-content-function-blocks-staticAnalys.page-load")
