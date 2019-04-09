@@ -42,14 +42,15 @@ class Hunan_test(unittest.TestCase):
         """
         self.index = Hunan_pages.Hunan_pages_Synch(driver)
         self.index.move_to_settings()
-        self.index.click_basicinformation()
-        self.index.type_carNum(param[1]["carNUM"])
-        self.index.click_select_bt()
-        self.index.click_carinfo()
-        self.index.click_synch_bt()
-        self.index.click_YES()
+        self.index.basicinformation_click()
+        self.index.carNum_type(param[1]["carNUM"])
+        self.index.select_bt_click()
+        self.index.carinfo_click()
+        self.index.synch_bt_click_()
+        self.index.synch_YES_click()
         self.index.assert_text(
             text="同步成功",
             css="css->.layui-layer-content.layui-layer-padding",
             sec=15
         )
+

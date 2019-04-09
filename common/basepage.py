@@ -291,4 +291,27 @@ class pyselenium(Browser_engine):
             )
             raise
 
+    def js(self, script):
+        """导入js"""
+        t1 = time.time()
+        try:
+            self.driver.execute_script(script)
+            self.my_print("{0} 执行 javascript 脚本: {1}, 用时 {:.2f} 秒.".format(success, script, time.time() - t1))
+        except Exception:
+            self.my_print("{0} 无法执行 javascript 脚本: {1}, 用时 {:.2f} 秒.".format(fail, script, time.time() - t1))
+            raise
+
+    def clear_type(self, css, text):
+        """清除默认内容，并输入新内容"""
+        t1 = time.time()
+        try:
+            self.element_wait(css)
+            el = self.get_element(css)
+            el.clear()
+            el.send_keys(text)
+            self.my_print("{0} 清除元素: <{1}> 输入: {2}, 用时 {:.2f} 秒.".format(success, css, text, time.time() - t1))
+        except Exception:
+            self.my_print("{0} 无法清除元素: <{1}> 输入: {2}, 用时 {:.2f} 秒.".format(fail, css, text, time.time() - t1))
+            raise
+        
 # if __name__ == "__main__":
