@@ -3,6 +3,20 @@
   <component name="ChangeListManager">
     <list default="true" id="06c29c4b-26e0-4ea0-9fc9-6cc3d47972d3" name="Default" comment="">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/1.py" beforeDir="false" afterPath="$PROJECT_DIR$/1.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/common/basepage.py" beforeDir="false" afterPath="$PROJECT_DIR$/common/basepage.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/datas/Hunan_datas.xlsx" beforeDir="false" afterPath="$PROJECT_DIR$/datas/Hunan_datas.xlsx" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/pages/Hunan_pages.py" beforeDir="false" afterPath="$PROJECT_DIR$/pages/Hunan_pages.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/testcase/test_Hunan_01.py" beforeDir="false" afterPath="$PROJECT_DIR$/testcase/test_Hunan_01.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/venv/Lib/site-packages/pip-10.0.1-py3.7.egg/EGG-INFO/SOURCES.txt" beforeDir="false" afterPath="$PROJECT_DIR$/venv/Lib/site-packages/pip-10.0.1-py3.7.egg/EGG-INFO/SOURCES.txt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/venv/Lib/site-packages/pip-10.0.1-py3.7.egg/EGG-INFO/dependency_links.txt" beforeDir="false" afterPath="$PROJECT_DIR$/venv/Lib/site-packages/pip-10.0.1-py3.7.egg/EGG-INFO/dependency_links.txt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/venv/Lib/site-packages/pip-10.0.1-py3.7.egg/EGG-INFO/entry_points.txt" beforeDir="false" afterPath="$PROJECT_DIR$/venv/Lib/site-packages/pip-10.0.1-py3.7.egg/EGG-INFO/entry_points.txt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/venv/Lib/site-packages/pip-10.0.1-py3.7.egg/EGG-INFO/requires.txt" beforeDir="false" afterPath="$PROJECT_DIR$/venv/Lib/site-packages/pip-10.0.1-py3.7.egg/EGG-INFO/requires.txt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/venv/Lib/site-packages/pip-10.0.1-py3.7.egg/EGG-INFO/top_level.txt" beforeDir="false" afterPath="$PROJECT_DIR$/venv/Lib/site-packages/pip-10.0.1-py3.7.egg/EGG-INFO/top_level.txt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/venv/Lib/site-packages/pip-10.0.1-py3.7.egg/pip/_vendor/certifi/cacert.pem" beforeDir="false" afterPath="$PROJECT_DIR$/venv/Lib/site-packages/pip-10.0.1-py3.7.egg/pip/_vendor/certifi/cacert.pem" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/venv/Scripts/pip-script.py" beforeDir="false" afterPath="$PROJECT_DIR$/venv/Scripts/pip-script.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/venv/Scripts/pip3-script.py" beforeDir="false" afterPath="$PROJECT_DIR$/venv/Scripts/pip3-script.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/venv/Scripts/pip3.7-script.py" beforeDir="false" afterPath="$PROJECT_DIR$/venv/Scripts/pip3.7-script.py" afterDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="TRACKING_ENABLED" value="true" />
@@ -10,6 +24,11 @@
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
     <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="CoverageDataManager">
+    <SUITE FILE_PATH="coverage/my_test$1.coverage" NAME="1 Coverage Results" MODIFIED="1554874010840" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" />
+    <SUITE FILE_PATH="coverage/my_test$Unittests_for_test_Hunan_01_Hunan_test_test_Synch.coverage" NAME="Unittests for test_Hunan_01.Hunan_test.test_Synch Coverage Results" MODIFIED="1554873854132" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/testcase" />
+    <SUITE FILE_PATH="coverage/my_test$Unittests_for_test_Hunan_01_Hunan_test.coverage" NAME="Unittests for test_Hunan_01.Hunan_test Coverage Results" MODIFIED="1554874336995" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/testcase" />
   </component>
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="375">
@@ -28,8 +47,8 @@
       <file leaf-file-name="basepage.py" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/common/basepage.py">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="6900">
-              <caret line="300" column="10" selection-start-line="300" selection-start-column="10" selection-end-line="300" selection-end-column="10" />
+            <state relative-caret-position="184">
+              <caret line="45" lean-forward="true" selection-start-line="45" selection-end-line="45" />
               <folding>
                 <element signature="e#15#45#0" expanded="true" />
               </folding>
@@ -58,8 +77,8 @@
       <file leaf-file-name="1.py" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/1.py">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="46">
-              <caret line="2" column="40" selection-start-line="2" selection-start-column="13" selection-end-line="2" selection-end-column="40" />
+            <state relative-caret-position="92">
+              <caret line="4" selection-start-line="4" selection-end-line="4" />
             </state>
           </provider>
         </entry>
@@ -79,9 +98,8 @@
       <file leaf-file-name="test_Hunan_01.py" pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/testcase/test_Hunan_01.py">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="352">
-              <caret line="52" column="64" selection-start-line="52" selection-start-column="64" selection-end-line="52" selection-end-column="64" />
-              <caret line="54" column="9" selection-start-line="54" selection-start-column="9" selection-end-line="54" selection-end-column="9" />
+            <state relative-caret-position="398">
+              <caret line="65" lean-forward="true" selection-start-line="65" selection-end-line="65" />
               <folding>
                 <element signature="e#15#30#0" expanded="true" />
               </folding>
@@ -92,13 +110,18 @@
       <file leaf-file-name="Hunan_pages.py" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/pages/Hunan_pages.py">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="621">
-              <caret line="27" selection-start-line="27" selection-end-line="27" />
+            <state relative-caret-position="1036">
+              <caret line="61" selection-start-line="61" selection-end-line="61" />
               <folding>
                 <element signature="e#15#53#0" expanded="true" />
               </folding>
             </state>
           </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="Ganzhou_pages.py" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/pages/Ganzhou_pages.py">
+          <provider selected="true" editor-type-id="text-editor" />
         </entry>
       </file>
       <file leaf-file-name="test1.py" pinned="false" current-in-tab="false">
@@ -112,6 +135,11 @@
       </file>
     </leaf>
   </component>
+  <component name="FindInProjectRecents">
+    <findStrings>
+      <find>:.2f</find>
+    </findStrings>
+  </component>
   <component name="Git.Settings">
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
     <option name="RECENT_BRANCH_BY_REPOSITORY">
@@ -123,6 +151,9 @@
   <component name="IdeDocumentHistory">
     <option name="CHANGED_PATHS">
       <list>
+        <option value="$PROJECT_DIR$/pages/Hunan_pages.py" />
+        <option value="$PROJECT_DIR$/1.py" />
+        <option value="$PROJECT_DIR$/common/basepage.py" />
         <option value="$PROJECT_DIR$/testcase/test_Hunan_01.py" />
       </list>
     </option>
@@ -162,6 +193,8 @@
   </component>
   <component name="PropertiesComponent">
     <property name="WebServerToolWindowFactoryState" value="false" />
+    <property name="last_opened_file_path" value="F:/web-autotest" />
+    <property name="settings.editor.selected.configurable" value="com.jetbrains.python.configuration.PyActiveSdkModuleConfigurable" />
   </component>
   <component name="RunDashboard">
     <option name="ruleStates">
@@ -175,8 +208,7 @@
       </list>
     </option>
   </component>
-  <component name="RunManager" selected="Python.1">
-    <configuration name="TestResult-2019-04-08_14_31_21.html" type="JavascriptDebugType" factoryName="JavaScript Debug" temporary="true" nameIsGenerated="true" uri="http://localhost:63342/my_test/report/2019-04-08/TestResult-2019-04-08_14_31_21.html" />
+  <component name="RunManager" selected="Python tests.Unittests for test_Hunan_01.Hunan_test">
     <configuration name="1" type="PythonConfigurationType" factoryName="Python" temporary="true">
       <module name="my_test" />
       <option name="INTERPRETER_OPTIONS" value="" />
@@ -215,25 +247,6 @@
       <option name="EMULATE_TERMINAL" value="false" />
       <option name="MODULE_MODE" value="false" />
     </configuration>
-    <configuration name="run_Hunan" type="PythonConfigurationType" factoryName="Python" temporary="true">
-      <module name="my_test" />
-      <option name="INTERPRETER_OPTIONS" value="" />
-      <option name="PARENT_ENVS" value="true" />
-      <envs>
-        <env name="PYTHONUNBUFFERED" value="1" />
-      </envs>
-      <option name="SDK_HOME" value="" />
-      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/run" />
-      <option name="IS_MODULE_SDK" value="true" />
-      <option name="ADD_CONTENT_ROOTS" value="true" />
-      <option name="ADD_SOURCE_ROOTS" value="true" />
-      <EXTENSION ID="PythonCoverageRunConfigurationExtension" runner="coverage.py" />
-      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/run/run_Hunan.py" />
-      <option name="PARAMETERS" value="" />
-      <option name="SHOW_COMMAND_LINE" value="false" />
-      <option name="EMULATE_TERMINAL" value="false" />
-      <option name="MODULE_MODE" value="false" />
-    </configuration>
     <configuration name="test2" type="PythonConfigurationType" factoryName="Python" temporary="true">
       <module name="my_test" />
       <option name="INTERPRETER_OPTIONS" value="" />
@@ -253,20 +266,48 @@
       <option name="EMULATE_TERMINAL" value="false" />
       <option name="MODULE_MODE" value="false" />
     </configuration>
+    <configuration name="Unittests for test_Hunan_01.Hunan_test" type="tests" factoryName="Unittests" temporary="true" nameIsGenerated="true">
+      <module name="my_test" />
+      <option name="INTERPRETER_OPTIONS" value="" />
+      <option name="PARENT_ENVS" value="true" />
+      <option name="SDK_HOME" value="" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/testcase" />
+      <option name="IS_MODULE_SDK" value="true" />
+      <option name="ADD_CONTENT_ROOTS" value="true" />
+      <option name="ADD_SOURCE_ROOTS" value="true" />
+      <EXTENSION ID="PythonCoverageRunConfigurationExtension" runner="coverage.py" />
+      <option name="_new_additionalArguments" value="&quot;&quot;" />
+      <option name="_new_target" value="&quot;test_Hunan_01.Hunan_test&quot;" />
+      <option name="_new_targetType" value="&quot;PYTHON&quot;" />
+    </configuration>
+    <configuration name="Unittests for test_Hunan_01.Hunan_test.test_Synch" type="tests" factoryName="Unittests" temporary="true" nameIsGenerated="true">
+      <module name="my_test" />
+      <option name="INTERPRETER_OPTIONS" value="" />
+      <option name="PARENT_ENVS" value="true" />
+      <option name="SDK_HOME" value="" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/testcase" />
+      <option name="IS_MODULE_SDK" value="true" />
+      <option name="ADD_CONTENT_ROOTS" value="true" />
+      <option name="ADD_SOURCE_ROOTS" value="true" />
+      <EXTENSION ID="PythonCoverageRunConfigurationExtension" runner="coverage.py" />
+      <option name="_new_additionalArguments" value="&quot;&quot;" />
+      <option name="_new_target" value="&quot;test_Hunan_01.Hunan_test.test_Synch&quot;" />
+      <option name="_new_targetType" value="&quot;PYTHON&quot;" />
+    </configuration>
     <list>
-      <item itemvalue="Python.run_Hunan" />
-      <item itemvalue="JavaScript Debug.TestResult-2019-04-08_14_31_21.html" />
       <item itemvalue="Python.test2" />
       <item itemvalue="Python.HTMLTestRunner" />
       <item itemvalue="Python.1" />
+      <item itemvalue="Python tests.Unittests for test_Hunan_01.Hunan_test" />
+      <item itemvalue="Python tests.Unittests for test_Hunan_01.Hunan_test.test_Synch" />
     </list>
     <recent_temporary>
       <list>
+        <item itemvalue="Python tests.Unittests for test_Hunan_01.Hunan_test" />
         <item itemvalue="Python.1" />
+        <item itemvalue="Python tests.Unittests for test_Hunan_01.Hunan_test.test_Synch" />
         <item itemvalue="Python.HTMLTestRunner" />
         <item itemvalue="Python.test2" />
-        <item itemvalue="JavaScript Debug.TestResult-2019-04-08_14_31_21.html" />
-        <item itemvalue="Python.run_Hunan" />
       </list>
     </recent_temporary>
   </component>
@@ -316,20 +357,53 @@
       <option name="project" value="LOCAL" />
       <updated>1554864550988</updated>
     </task>
-    <option name="localTasksCounter" value="6" />
+    <task id="LOCAL-00006" summary="4.10  push 002">
+      <created>1554865878276</created>
+      <option name="number" value="00006" />
+      <option name="presentableId" value="LOCAL-00006" />
+      <option name="project" value="LOCAL" />
+      <updated>1554865878276</updated>
+    </task>
+    <option name="localTasksCounter" value="7" />
     <servers />
+  </component>
+  <component name="TestHistory">
+    <history-entry file="Unittests_for_test_Hunan_01_Hunan_test - 2019.04.10 at 13h 19m 18s.xml">
+      <configuration name="Unittests for test_Hunan_01.Hunan_test" configurationId="tests" />
+    </history-entry>
+    <history-entry file="Unittests_for_test_Hunan_01_Hunan_test - 2019.04.10 at 13h 21m 53s.xml">
+      <configuration name="Unittests for test_Hunan_01.Hunan_test" configurationId="tests" />
+    </history-entry>
+    <history-entry file="Unittests_for_test_Hunan_01_Hunan_test_test_Synch - 2019.04.10 at 13h 22m 27s.xml">
+      <configuration name="Unittests for test_Hunan_01.Hunan_test.test_Synch" configurationId="tests" />
+    </history-entry>
+    <history-entry file="Unittests_for_test_Hunan_01_Hunan_test_test_Synch - 2019.04.10 at 13h 23m 00s.xml">
+      <configuration name="Unittests for test_Hunan_01.Hunan_test.test_Synch" configurationId="tests" />
+    </history-entry>
+    <history-entry file="Unittests_for_test_Hunan_01_Hunan_test_test_Synch - 2019.04.10 at 13h 24m 25s.xml">
+      <configuration name="Unittests for test_Hunan_01.Hunan_test.test_Synch" configurationId="tests" />
+    </history-entry>
+    <history-entry file="Unittests_for_test_Hunan_01_Hunan_test - 2019.04.10 at 13h 30m 35s.xml">
+      <configuration name="Unittests for test_Hunan_01.Hunan_test" configurationId="tests" />
+    </history-entry>
+    <history-entry file="Unittests_for_test_Hunan_01_Hunan_test - 2019.04.10 at 13h 31m 37s.xml">
+      <configuration name="Unittests for test_Hunan_01.Hunan_test" configurationId="tests" />
+    </history-entry>
+    <history-entry file="Unittests_for_test_Hunan_01_Hunan_test - 2019.04.10 at 13h 32m 36s.xml">
+      <configuration name="Unittests for test_Hunan_01.Hunan_test" configurationId="tests" />
+    </history-entry>
   </component>
   <component name="ToolWindowManager">
     <frame x="-8" y="-8" width="1936" height="1056" extended-state="6" />
     <layout>
       <window_info anchor="bottom" id="TODO" order="6" />
-      <window_info anchor="bottom" id="Event Log" side_tool="true" visible="true" weight="0.3295838" />
+      <window_info anchor="bottom" id="Event Log" side_tool="true" weight="0.3295838" />
       <window_info anchor="bottom" id="Database Changes" />
       <window_info anchor="bottom" id="Version Control" />
-      <window_info anchor="bottom" id="Python Console" />
-      <window_info anchor="bottom" id="Run" order="2" />
+      <window_info anchor="bottom" id="Python Console" weight="0.3295838" />
+      <window_info active="true" anchor="bottom" id="Run" order="2" visible="true" weight="0.3295838" />
       <window_info anchor="bottom" id="Terminal" />
-      <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.25" />
+      <window_info content_ui="combo" id="Project" order="0" visible="true" weight="0.16255365" />
       <window_info anchor="bottom" id="Docker" show_stripe_button="false" />
       <window_info anchor="right" id="Database" />
       <window_info anchor="right" id="SciView" />
@@ -371,16 +445,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/common/basepage.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="6900">
-          <caret line="300" column="10" selection-start-line="300" selection-start-column="10" selection-end-line="300" selection-end-column="10" />
-          <folding>
-            <element signature="e#15#45#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/common/get_parameter.py">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="460">
@@ -395,29 +459,12 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/1.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="46">
-          <caret line="2" column="40" selection-start-line="2" selection-start-column="13" selection-end-line="2" selection-end-column="40" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/common/test2.py">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="5359">
           <caret line="243" column="17" selection-start-line="243" selection-start-column="17" selection-end-line="243" selection-end-column="17" />
           <folding>
             <element signature="e#49#60#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/pages/Hunan_pages.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="621">
-          <caret line="27" selection-start-line="27" selection-end-line="27" />
-          <folding>
-            <element signature="e#15#53#0" expanded="true" />
           </folding>
         </state>
       </provider>
@@ -429,11 +476,40 @@
         </state>
       </provider>
     </entry>
+    <entry file="file://$PROJECT_DIR$/pages/Ganzhou_pages.py">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/1.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="92">
+          <caret line="4" selection-start-line="4" selection-end-line="4" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/common/basepage.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="184">
+          <caret line="45" lean-forward="true" selection-start-line="45" selection-end-line="45" />
+          <folding>
+            <element signature="e#15#45#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/pages/Hunan_pages.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="1036">
+          <caret line="61" selection-start-line="61" selection-end-line="61" />
+          <folding>
+            <element signature="e#15#53#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
     <entry file="file://$PROJECT_DIR$/testcase/test_Hunan_01.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="352">
-          <caret line="52" column="64" selection-start-line="52" selection-start-column="64" selection-end-line="52" selection-end-column="64" />
-          <caret line="54" column="9" selection-start-line="54" selection-start-column="9" selection-end-line="54" selection-end-column="9" />
+        <state relative-caret-position="398">
+          <caret line="65" lean-forward="true" selection-start-line="65" selection-end-line="65" />
           <folding>
             <element signature="e#15#30#0" expanded="true" />
           </folding>

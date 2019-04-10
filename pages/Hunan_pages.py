@@ -23,13 +23,14 @@ class Hunan_pages_login(pyselenium):
         self.click("css->.login-btn")
 
 
-class Hunan_pages_Synch(pyselenium):
+class Hunan_pages_BaseInfo(pyselenium):
     """基本信息车辆管理"""
 
     def move_to_settings(self):
         self.move_to_element("css->#home-down-icon-level")
 
-    def basicinformation_click(self):
+    def baseinfo_click(self):
+        # 点击基本信息
         self.click("css->#base_info_level")
 
     # def type_carNums(self):
@@ -38,17 +39,24 @@ class Hunan_pages_Synch(pyselenium):
     #         self.type("css->#vehicleManage_tables_div_queyFrom0_form0_text0_show", carNUM)
     #         i += 1
 
-    def carNum_type(self,car_numeber):
+    def type_carnum(self,car_numeber):
+        # 输入车牌号
         self.type("css->#vehicleManage_tables_div_queyFrom0_form0_text0_show", car_numeber)
 
     def select_bt_click(self):
+        # 查询
         self.click("css->#vehicleManage_tables_div_queyFrom0_form1_button0_btn")
 
     def carinfo_click(self):
+        # 选择第一条车辆信息
         self.click("css->#vehicleManage_tables_table > tbody > tr:nth-child(1)")
 
     def synch_bt_click_(self):
+        # 点击同步按钮
         self.click("css->#vehicleManage_tables_div_queyFrom0_form1_button1_btn")
 
     def synch_YES_click(self):
+        # 确认同步
         self.click("css->#layui-layer5 > div.layui-layer-btn > a.layui-layer-btn0")
+
+

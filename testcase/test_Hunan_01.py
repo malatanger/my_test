@@ -35,22 +35,31 @@ class Hunan_test(unittest.TestCase):
         cls.index.quit()
         logger.info('################################ End ################################')
 
-    def test_Synch(self):
+    def test_002_Synch(self):
         """
         同步车辆信息
         :return:
         """
-        self.index = Hunan_pages.Hunan_pages_Synch(driver)
+        logger.info("开始用例002")
+        self.index = Hunan_pages.Hunan_pages_BaseInfo(driver)
         self.index.move_to_settings()
-        self.index.basicinformation_click()
-        self.index.carNum_type(param[1]["carNUM"])
+        self.index.baseinfo_click()
+        self.index.type_carnum(param[1]["carnumber"])
         self.index.select_bt_click()
         self.index.carinfo_click()
         self.index.synch_bt_click_()
         self.index.synch_YES_click()
         self.index.assert_text(
-            text="同步成功334443334",
+            text="同步成功",
             css="css->.layui-layer-content.layui-layer-padding",
             sec=15
         )
 
+    def test_001_SelectTheCar(self):
+        """
+        查询车辆基本信息
+        :return:
+        """
+        self.index = Hunan_pages.Hunan_pages_BaseInfo(driver)
+        self.index.move_to_settings()
+        self.index.baseinfo_click()
