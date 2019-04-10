@@ -49,7 +49,7 @@ class Hunan_test(unittest.TestCase):
         self.index.synch_bt_click_()
         self.index.synch_YES_click()
         self.index.assert_text(
-            text="同步成功333",
+            text="同步成功3334",
             css="css->.layui-layer-content.layui-layer-padding",
             sec=15
         )
