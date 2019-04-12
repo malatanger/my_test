@@ -134,7 +134,7 @@ class pyselenium(Browser_engine):
             )
         return element
 
-    def type_and_enter(self, css, text, sec):
+    def input_and_enter(self, css, text, sec):
         """输入并敲击回车"""
         t1 = time.time()
         try:
@@ -152,7 +152,22 @@ class pyselenium(Browser_engine):
             )
             raise
 
-    def type(self, css, text):
+    def clear_input_enter(self, css, text, sec=1):
+        """清除默认内容，并输入新内容"""
+        t1 = time.time()
+        try:
+            self.element_wait(css)
+            el = self.get_element(css)
+            el.clear()
+            el.send_keys(text)
+            self.sleep(sec)
+            el.send_keys(Keys.ENTER)
+            self.my_print("{0} 清除元素: <{1}> 输入: {2}, 用时 {3} 秒.".format(success, css, text, time.time() - t1))
+        except Exception:
+            self.my_print("{0} 无法清除元素: <{1}> 输入: {2}, 用时 {3} 秒.".format(fail, css, text, time.time() - t1))
+            raise
+
+    def input(self, css, text):
         """输入"""
         t1 = time.time()
         try:
@@ -243,9 +258,16 @@ class pyselenium(Browser_engine):
             )
             raise
 
-    def wait(self, secs):
+    def wait(self, secs=5):
         """隐性等待"""
         self.driver.implicitly_wait(secs)
+        self.my_print(
+            "{0} 等待 {1} 秒钟".format(success, secs)
+        )
+
+    def sleep(self, secs=5):
+        """隐性等待"""
+        time.sleep(secs)
         self.my_print(
             "{0} 等待 {1} 秒钟".format(success, secs)
         )
@@ -274,21 +296,21 @@ class pyselenium(Browser_engine):
             )
             raise
 
-    def assert_text(self, text, css, sec):
+    def assert_text(self, text, css, times=15):
         """文本断言"""
         t1 = time.time()
-        page_text = self.get_text(css)
         try:
-            self.element_wait(css, sec)
+            self.element_wait(css,sec = times)
+            page_text = self.get_text(css)
             assert text in page_text
             self.my_print(
-                "{0} 断言通过 元素: <{1}>，断言文本：<{2}>, 用时 {3} 秒.".format(success, css, text,time.time() - t1)
+                "{0} 断言通过 元素: <{1}>，断言文本：<{2}>, 用时 {3} 秒.".format(success, css, text, time.time() - t1)
             )
-        except Exception:
-            self.take_screenshot()
+        except AssertionError:
             self.my_print(
                 "{0} 断言未通过 元素: <{1}>，断言文本：<{2}>, 用时 {3} 秒.".format(fail, css, text, time.time() - t1)
             )
+            self.take_screenshot()
             raise
 
     def js(self, script):
@@ -301,7 +323,19 @@ class pyselenium(Browser_engine):
             self.my_print("{0} 无法执行 javascript 脚本: {1}, 用时 {2} 秒.".format(fail, script, time.time() - t1))
             raise
 
-    def clear_type(self, css, text):
+    def clear(self, css):
+        """清除默认内容"""
+        t1 = time.time()
+        try:
+            self.element_wait(css)
+            el = self.get_element(css)
+            el.clear()
+            self.my_print("{0} 清除元素: <{1}> , 用时 {2} 秒.".format(success, css, time.time() - t1))
+        except Exception:
+            self.my_print("{0} 无法清除元素: <{1}> , 用时 {2} 秒.".format(fail, css, time.time() - t1))
+            raise
+
+    def clear_input(self, css, text):
         """清除默认内容，并输入新内容"""
         t1 = time.time()
         try:
@@ -313,5 +347,5 @@ class pyselenium(Browser_engine):
         except Exception:
             self.my_print("{0} 无法清除元素: <{1}> 输入: {2}, 用时 {3} 秒.".format(fail, css, text, time.time() - t1))
             raise
-        
+
 # if __name__ == "__main__":

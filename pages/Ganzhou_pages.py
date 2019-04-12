@@ -27,3 +27,4 @@ class Ganzhou_pages_Statistics(pyselenium):
     def type_area(self, text):
         self.type("css->#report_vehicleinstall_table_div_tabs0_content_panel0_form0_text0_show", text)
         self.js("document.querySelector('#ui-id-1').style.display='block'")
+
