@@ -1,0 +1,58 @@
+2019-04-10 13:21:37,596 - root - INFO - ############################### START ###############################
+2019-04-10 13:22:18,581 - root - INFO - ############################### START ###############################
+2019-04-10 13:22:53,704 - root - INFO - ############################### START ###############################
+2019-04-10 13:22:59,596 - root - INFO - SUCCESS    新建浏览器: chrome, 用时 5.891336917877197 秒.
+2019-04-10 13:24:14,607 - root - INFO - ############################### START ###############################
+2019-04-10 13:30:20,701 - root - INFO - ############################### START ###############################
+2019-04-10 13:30:26,657 - root - INFO - SUCCESS    新建浏览器: chrome, 用时 5.95534086227417 秒.
+2019-04-10 13:30:27,822 - root - INFO - SUCCESS    浏览器窗口最大化, 用时 1.1630663871765137 秒.
+2019-04-10 13:30:28,641 - root - INFO - SUCCESS    成功打开链接：https://www.hunanlwlk.com/，用时 0.8170466423034668 秒.
+2019-04-10 13:30:28,860 - root - INFO - SUCCESS    元素：css->#txtUser，内容：‘js001’输入成功， 用时 0.2170124053955078 秒.
+2019-04-10 13:30:29,008 - root - INFO - SUCCESS    元素：css->#txtPwd，内容：‘qwe123456’输入成功， 用时 0.14500808715820312 秒.
+2019-04-10 13:30:30,800 - root - INFO - SUCCESS    点击元素：css->.login-btn， 用时 1.7901027202606201 秒.
+2019-04-10 13:30:30,927 - root - INFO - SUCCESS    移动到元素: <css->#home-down-icon-level>, 用时 0.12300682067871094 秒.
+2019-04-10 13:30:31,019 - root - INFO - SUCCESS    点击元素：css->#base_info_level， 用时 0.09000492095947266 秒.
+2019-04-10 13:30:31,947 - root - INFO - SUCCESS    移动到元素: <css->#home-down-icon-level>, 用时 0.9250528812408447 秒.
+2019-04-10 13:30:31,999 - root - INFO - SUCCESS    点击元素：css->#base_info_level， 用时 0.05200314521789551 秒.
+2019-04-10 13:30:35,094 - root - INFO - SUCCESS    退出浏览器并清除临时文件， 用时 3.092176914215088 秒.
+2019-04-10 13:30:35,095 - root - INFO - ################################ End ################################
+2019-04-10 13:31:19,438 - root - INFO - ############################### START ###############################
+2019-04-10 13:31:24,897 - root - INFO - SUCCESS    新建浏览器: chrome, 用时 5.458312273025513 秒.
+2019-04-10 13:31:26,041 - root - INFO - SUCCESS    浏览器窗口最大化, 用时 1.1420652866363525 秒.
+2019-04-10 13:31:26,513 - root - INFO - SUCCESS    成功打开链接：https://www.hunanlwlk.com/，用时 0.4710268974304199 秒.
+2019-04-10 13:31:26,637 - root - INFO - SUCCESS    元素：css->#txtUser，内容：‘js001’输入成功， 用时 0.12300705909729004 秒.
+2019-04-10 13:31:26,916 - root - INFO - SUCCESS    元素：css->#txtPwd，内容：‘qwe123456’输入成功， 用时 0.27901577949523926 秒.
+2019-04-10 13:31:28,424 - root - INFO - SUCCESS    点击元素：css->.login-btn， 用时 1.5060858726501465 秒.
+2019-04-10 13:31:28,765 - root - INFO - SUCCESS    移动到元素: <css->#home-down-icon-level>, 用时 0.33801937103271484 秒.
+2019-04-10 13:31:28,929 - root - INFO - SUCCESS    点击元素：css->#base_info_level， 用时 0.1630091667175293 秒.
+2019-04-10 13:31:29,161 - root - INFO - SUCCESS    移动到元素: <css->#home-down-icon-level>, 用时 0.22901320457458496 秒.
+2019-04-10 13:31:29,811 - root - INFO - SUCCESS    点击元素：css->#base_info_level， 用时 0.6490371227264404 秒.
+2019-04-10 13:31:29,935 - root - INFO - SUCCESS    元素：css->#vehicleManage_tables_div_queyFrom0_form0_text0_show，内容：‘湘FA6070’输入成功， 用时 0.12200713157653809 秒.
+2019-04-10 13:31:30,069 - root - INFO - SUCCESS    点击元素：css->#vehicleManage_tables_div_queyFrom0_form1_button0_btn， 用时 0.13100743293762207 秒.
+2019-04-10 13:31:31,172 - root - INFO - SUCCESS    点击元素：css->#vehicleManage_tables_table > tbody > tr:nth-child(1)， 用时 1.1010627746582031 秒.
+2019-04-10 13:31:31,262 - root - INFO - SUCCESS    点击元素：css->#vehicleManage_tables_div_queyFrom0_form1_button1_btn， 用时 0.0890054702758789 秒.
+2019-04-10 13:31:31,356 - root - INFO - SUCCESS    点击元素：css->#layui-layer5 > div.layui-layer-btn > a.layui-layer-btn0， 用时 0.09100508689880371 秒.
+2019-04-10 13:31:34,511 - root - INFO - SUCCESS    获取元素文本 元素: <css->.layui-layer-content.layui-layer-padding> 文本内容：<同步成功>, 用时 3.1541807651519775 秒.
+2019-04-10 13:31:34,521 - root - INFO - SUCCESS    断言通过 元素: <css->.layui-layer-content.layui-layer-padding>，断言文本：<同步成功>, 用时 3.1631810665130615 秒.
+2019-04-10 13:31:37,578 - root - INFO - SUCCESS    退出浏览器并清除临时文件， 用时 3.0541749000549316 秒.
+2019-04-10 13:31:37,580 - root - INFO - ################################ End ################################
+2019-04-10 13:32:17,302 - root - INFO - ############################### START ###############################
+2019-04-10 13:32:21,998 - root - INFO - SUCCESS    新建浏览器: chrome, 用时 4.696268558502197 秒.
+2019-04-10 13:32:23,177 - root - INFO - SUCCESS    浏览器窗口最大化, 用时 1.1760673522949219 秒.
+2019-04-10 13:32:24,348 - root - INFO - SUCCESS    成功打开链接：https://www.hunanlwlk.com/，用时 1.1700670719146729 秒.
+2019-04-10 13:32:24,442 - root - INFO - SUCCESS    元素：css->#txtUser，内容：‘js001’输入成功， 用时 0.09300494194030762 秒.
+2019-04-10 13:32:24,521 - root - INFO - SUCCESS    元素：css->#txtPwd，内容：‘qwe123456’输入成功， 用时 0.07700467109680176 秒.
+2019-04-10 13:32:28,528 - root - INFO - SUCCESS    点击元素：css->.login-btn， 用时 4.0052289962768555 秒.
+2019-04-10 13:32:28,609 - root - INFO - SUCCESS    移动到元素: <css->#home-down-icon-level>, 用时 0.07900452613830566 秒.
+2019-04-10 13:32:28,744 - root - INFO - SUCCESS    点击元素：css->#base_info_level， 用时 0.13200759887695312 秒.
+2019-04-10 13:32:29,324 - root - INFO - SUCCESS    移动到元素: <css->#home-down-icon-level>, 用时 0.5770328044891357 秒.
+2019-04-10 13:32:29,404 - root - INFO - SUCCESS    点击元素：css->#base_info_level， 用时 0.07800459861755371 秒.
+2019-04-10 13:32:29,856 - root - INFO - SUCCESS    元素：css->#vehicleManage_tables_div_queyFrom0_form0_text0_show，内容：‘湘FA6070’输入成功， 用时 0.44902586936950684 秒.
+2019-04-10 13:32:30,005 - root - INFO - SUCCESS    点击元素：css->#vehicleManage_tables_div_queyFrom0_form1_button0_btn， 用时 0.14700818061828613 秒.
+2019-04-10 13:32:31,101 - root - INFO - SUCCESS    点击元素：css->#vehicleManage_tables_table > tbody > tr:nth-child(1)， 用时 1.0920624732971191 秒.
+2019-04-10 13:32:31,183 - root - INFO - SUCCESS    点击元素：css->#vehicleManage_tables_div_queyFrom0_form1_button1_btn， 用时 0.08000445365905762 秒.
+2019-04-10 13:32:31,259 - root - INFO - SUCCESS    点击元素：css->#layui-layer5 > div.layui-layer-btn > a.layui-layer-btn0， 用时 0.0760047435760498 秒.
+2019-04-10 13:32:33,331 - root - INFO - SUCCESS    获取元素文本 元素: <css->.layui-layer-content.layui-layer-padding> 文本内容：<同步成功>, 用时 2.0701184272766113 秒.
+2019-04-10 13:32:33,339 - root - INFO - SUCCESS    断言通过 元素: <css->.layui-layer-content.layui-layer-padding>，断言文本：<同步成功>, 用时 2.0771188735961914 秒.
+2019-04-10 13:32:36,418 - root - INFO - SUCCESS    退出浏览器并清除临时文件， 用时 3.0771758556365967 秒.
+2019-04-10 13:32:36,420 - root - INFO - ################################ End ################################
