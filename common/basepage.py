@@ -7,12 +7,13 @@ from selenium.webdriver.common.keys import Keys
 from common.log import Log
 from selenium.webdriver.common.action_chains import ActionChains
 import time
-from config import screenshot_path, report_path
+from config import report_path
 import os
 
 success = "SUCCESS   "
 fail = "FAIL      "
 warning = "WARNING   "
+error = "ERROR     "
 logger = Log()
 
 
@@ -296,22 +297,46 @@ class pyselenium(Browser_engine):
             )
             raise
 
-    def assert_text(self, text, css, times=15):
+    def assert_text(self, text, css, sec=15, asserttype="in"):
         """文本断言"""
         t1 = time.time()
-        try:
-            self.element_wait(css,sec = times)
-            page_text = self.get_text(css)
-            assert text in page_text
+        if asserttype == 'in':
+            try:
+                self.element_wait(css, sec)
+                page_text = self.get_text(css)
+                assert text in page_text
+                self.my_print(
+                    "{0} 断言类型：{1}  通过  元素: <{2}> 断言文本：<{3}>, 用时 {4} 秒.".format(success, asserttype, css, text,
+                                                                               time.time() - t1)
+                )
+            except AssertionError:
+                self.my_print(
+                    "{0} 断言类型：{1}  未通过  元素: <{2}> 断言文本：<{3}>, 用时 {4} 秒.".format(fail,asserttype, css, text, time.time() - t1)
+                )
+                self.take_screenshot()
+                raise
+        elif asserttype == "not in":
+            try:
+                self.element_wait(css, sec)
+                page_text = self.get_text(css)
+                if page_text != '':
+                    assert text not in page_text
+                    self.my_print(
+                        "{0} 断言类型：{1}  通过  元素: <{2}> 断言文本：<{3}>, 用时 {4} 秒.".format(success, asserttype, css, text,
+                                                                                   time.time() - t1)
+                    )
+                else:
+                    self.my_print("{0} 断言元素文本内容为空， 用时 {1} 秒.".format(error, time.time() - t1))
+            except AssertionError:
+                self.my_print(
+                    "{0} 断言类型：{1}  未通过  元素: <{2}> 断言文本：<{3}>, 用时 {4} 秒.".format(fail,asserttype ,css, text, time.time() - t1)
+                )
+                self.take_screenshot()
+                raise
+        else:
             self.my_print(
-                "{0} 断言通过 元素: <{1}>，断言文本：<{2}>, 用时 {3} 秒.".format(success, css, text, time.time() - t1)
+                "断言类型错误，请输入'in'或者'not in'."
             )
-        except AssertionError:
-            self.my_print(
-                "{0} 断言未通过 元素: <{1}>，断言文本：<{2}>, 用时 {3} 秒.".format(fail, css, text, time.time() - t1)
-            )
-            self.take_screenshot()
-            raise
 
     def js(self, script):
         """导入js"""
