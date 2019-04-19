@@ -27,6 +27,7 @@ class Hunan_Assessment_test(unittest.TestCase):
         driver = Browser_engine().get_browser()
         # driver = Browser_engine().get_browser()
         cls.index = Hunan_pages.Hunan_pages_login(driver)
+        cls.index.wait(30)
         cls.index.max_window()
         cls.index.open_Hunan(param[1]["url"])
         cls.index.username_input(param[1]["username"])
@@ -39,9 +40,11 @@ class Hunan_Assessment_test(unittest.TestCase):
         cls.index.quit()
         logger.info('################################ End ################################')
 
-    @unittest.skip("调试")
+    # @unittest.skip("调试")
     def test_001_zoneassessment_month(self):
-        logger.info("开始用例： {0}".format(sys._getframe().f_code.co_name))
+        logger.info("开始用例： {0} , 参数选择： {1}".format(
+            sys._getframe().f_code.co_name,
+            param[1]["testname"]))
         self.index = Hunan_pages.Hunan_pages_Assessment(driver)
         self.index.F5()
         self.index.sleep(3)
@@ -58,9 +61,11 @@ class Hunan_Assessment_test(unittest.TestCase):
             css="css->tfoot > tr"
         )
 
-    @unittest.skip("调试")
+    # @unittest.skip("调试")
     def test_002_zoneassessment_year(self):
-        logger.info("开始用例： {0}".format(sys._getframe().f_code.co_name))
+        logger.info("开始用例： {0} , 参数选择： {1}".format(
+            sys._getframe().f_code.co_name,
+            param[2]["testname"]))
         self.index = Hunan_pages.Hunan_pages_Assessment(driver)
         self.index.F5()
         self.index.sleep(3)
@@ -79,9 +84,11 @@ class Hunan_Assessment_test(unittest.TestCase):
             sec=50
         )
 
-    @unittest.skip("调试")
+    # @unittest.skip("调试")
     def test_003_zoneassessment_day(self):
-        logger.info("开始用例： {0}".format(sys._getframe().f_code.co_name))
+        logger.info("开始用例： {0} , 参数选择： {1}".format(
+            sys._getframe().f_code.co_name,
+            param[3]["testname"]))
         self.index = Hunan_pages.Hunan_pages_Assessment(driver)
         self.index.F5()
         self.index.sleep(3)
@@ -100,9 +107,11 @@ class Hunan_Assessment_test(unittest.TestCase):
             css="css->tfoot > tr"
         )
 
-    @unittest.skip("调试")
+    #@unittest.skip("调试")
     def test_004_Companyassessment_month(self):
-        logger.info("开始用例： {0}".format(sys._getframe().f_code.co_name))
+        logger.info("开始用例： {0} , 参数选择： {1}".format(
+            sys._getframe().f_code.co_name,
+            param[4]["testname"]))
         self.index = Hunan_pages.Hunan_pages_Assessment(driver)
         self.index.F5()
         self.index.assessment_bt_click()
@@ -120,9 +129,11 @@ class Hunan_Assessment_test(unittest.TestCase):
             css="css->tfoot > tr"
         )
 
-    @unittest.skip("调试")
+    # @unittest.skip("调试")
     def test_005_Companyassessment_year(self):
-        logger.info("开始用例： {0}".format(sys._getframe().f_code.co_name))
+        logger.info("开始用例： {0} , 参数选择： {1}".format(
+            sys._getframe().f_code.co_name,
+            param[5]["testname"]))
         self.index = Hunan_pages.Hunan_pages_Assessment(driver)
         self.index.F5()
         self.index.assessment_bt_click()
@@ -141,9 +152,11 @@ class Hunan_Assessment_test(unittest.TestCase):
             sec=50
         )
 
-    @unittest.skip("调试")
+    # @unittest.skip("调试")
     def test_006_Companyassessment_day(self):
-        logger.info("开始用例： {0}".format(sys._getframe().f_code.co_name))
+        logger.info("开始用例： {0} , 参数选择： {1}".format(
+            sys._getframe().f_code.co_name,
+            param[6]["testname"]))
         self.index = Hunan_pages.Hunan_pages_Assessment(driver)
         self.index.F5()
         self.index.assessment_bt_click()
@@ -162,9 +175,11 @@ class Hunan_Assessment_test(unittest.TestCase):
             css="css->tfoot > tr",
         )
 
-    @unittest.skip("调试")
+    # @unittest.skip("调试")
     def test_007_Platformassessment_month(self):
-        logger.info("开始用例： {0}".format(sys._getframe().f_code.co_name))
+        logger.info("开始用例： {0} , 参数选择： {1}".format(
+            sys._getframe().f_code.co_name,
+            param[7]["testname"]))
         self.index = Hunan_pages.Hunan_pages_Assessment(driver)
         self.index.F5()
         self.index.assessment_bt_click()
@@ -182,9 +197,11 @@ class Hunan_Assessment_test(unittest.TestCase):
             css="css->tfoot > tr"
         )
 
-    @unittest.skip("调试")
+    # @unittest.skip("调试")
     def test_008_Platformassessment_year(self):
-        logger.info("开始用例： {0}".format(sys._getframe().f_code.co_name))
+        logger.info("开始用例： {0} , 参数选择： {1}".format(
+            sys._getframe().f_code.co_name,
+            param[8]["testname"]))
         self.index = Hunan_pages.Hunan_pages_Assessment(driver)
         self.index.F5()
         self.index.assessment_bt_click()
@@ -203,9 +220,11 @@ class Hunan_Assessment_test(unittest.TestCase):
             sec=50
         )
 
-    @unittest.skip("调试")
+    # @unittest.skip("调试")
     def test_009_Platformassessment_day(self):
-        logger.info("开始用例： {0}".format(sys._getframe().f_code.co_name))
+        logger.info("开始用例： {0} , 参数选择： {1}".format(
+            sys._getframe().f_code.co_name,
+            param[9]["testname"]))
         self.index = Hunan_pages.Hunan_pages_Assessment(driver)
         self.index.F5()
         self.index.assessment_bt_click()
@@ -225,7 +244,9 @@ class Hunan_Assessment_test(unittest.TestCase):
         )
 
     def test_010_Details_Install(self):
-        logger.info("开始用例： {0}".format(sys._getframe().f_code.co_name))
+        logger.info("开始用例： {0} , 参数选择： {1}".format(
+            sys._getframe().f_code.co_name,
+            param[10]["testname"]))
         self.index = Hunan_pages.Hunan_pages_Assessment(driver)
         self.index.F5()
         self.index.assessment_bt_click()
@@ -247,7 +268,9 @@ class Hunan_Assessment_test(unittest.TestCase):
         )
 
     def test_011_Details_Online(self):
-        logger.info("开始用例： {0}".format(sys._getframe().f_code.co_name))
+        logger.info("开始用例： {0} , 参数选择： {1}".format(
+            sys._getframe().f_code.co_name,
+            param[11]["testname"]))
         self.index = Hunan_pages.Hunan_pages_Assessment(driver)
         self.index.F5()
         self.index.assessment_bt_click()
@@ -265,12 +288,14 @@ class Hunan_Assessment_test(unittest.TestCase):
         self.index.detailsonline_select_click()
         self.index.assert_text(
             text='没有相关数据',
-            css='css->#check_report_vehicleconnectrate_detail_table_table > tbody > tr',
+            css='css->#check_report_vehicleuplinerate_detail_table_table > tbody > tr',
             asserttype='not in'
         )
 
     def test_012_Details_Patform(self):
-        logger.info("开始用例： {0}".format(sys._getframe().f_code.co_name))
+        logger.info("开始用例： {0} , 参数选择： {1}".format(
+            sys._getframe().f_code.co_name,
+            param[12]["testname"]))
         self.index = Hunan_pages.Hunan_pages_Assessment(driver)
         self.index.F5()
         self.index.assessment_bt_click()
@@ -290,7 +315,9 @@ class Hunan_Assessment_test(unittest.TestCase):
         )
 
     def test_013_Details_Trail(self):
-        logger.info("开始用例： {0}".format(sys._getframe().f_code.co_name))
+        logger.info("开始用例： {0} , 参数选择： {1}".format(
+            sys._getframe().f_code.co_name,
+            param[13]["testname"]))
         self.index = Hunan_pages.Hunan_pages_Assessment(driver)
         self.index.F5()
         self.index.assessment_bt_click()
@@ -311,7 +338,9 @@ class Hunan_Assessment_test(unittest.TestCase):
         )
 
     def test_014_Details_Data(self):
-        logger.info("开始用例： {0}".format(sys._getframe().f_code.co_name))
+        logger.info("开始用例： {0} , 参数选择： {1}".format(
+            sys._getframe().f_code.co_name,
+            param[14]["testname"]))
         self.index = Hunan_pages.Hunan_pages_Assessment(driver)
         self.index.F5()
         self.index.assessment_bt_click()
@@ -332,7 +361,9 @@ class Hunan_Assessment_test(unittest.TestCase):
         )
 
     def test_015_Details_Speeding(self):
-        logger.info("开始用例： {0}".format(sys._getframe().f_code.co_name))
+        logger.info("开始用例： {0} , 参数选择： {1}".format(
+            sys._getframe().f_code.co_name,
+            param[15]["testname"]))
         self.index = Hunan_pages.Hunan_pages_Assessment(driver)
         self.index.F5()
         self.index.assessment_bt_click()
@@ -353,7 +384,9 @@ class Hunan_Assessment_test(unittest.TestCase):
         )
 
     def test_016_Details_Tired(self):
-        logger.info("开始用例： {0}".format(sys._getframe().f_code.co_name))
+        logger.info("开始用例： {0} , 参数选择： {1}".format(
+            sys._getframe().f_code.co_name,
+            param[16]["testname"]))
         self.index = Hunan_pages.Hunan_pages_Assessment(driver)
         self.index.F5()
         self.index.assessment_bt_click()
@@ -374,7 +407,9 @@ class Hunan_Assessment_test(unittest.TestCase):
         )
 
     def test_017_Details_Drift(self):
-        logger.info("开始用例： {0}".format(sys._getframe().f_code.co_name))
+        logger.info("开始用例： {0} , 参数选择： {1}".format(
+            sys._getframe().f_code.co_name,
+            param[17]["testname"]))
         self.index = Hunan_pages.Hunan_pages_Assessment(driver)
         self.index.F5()
         self.index.assessment_bt_click()
@@ -382,7 +417,7 @@ class Hunan_Assessment_test(unittest.TestCase):
         self.index.details_click()
         self.index.detailsdrift_click()
         self.index.detailsdrift_zone_input(param[17]["zone"])
-        self.index.detailsdrift_company_input(param[16]["company"])
+        self.index.detailsdrift_company_input(param[17]["company"])
         self.index.detailsdrift_platform_input(param[17]["platform"])
         self.index.detailsdrift_btime_input(param[17]["btime"])
         self.index.detailsdrift_etime_input(param[17]["etime"])
@@ -395,7 +430,9 @@ class Hunan_Assessment_test(unittest.TestCase):
         )
 
     def test_018_Details_Response(self):
-        logger.info("开始用例： {0}".format(sys._getframe().f_code.co_name))
+        logger.info("开始用例： {0} , 参数选择： {1}".format(
+            sys._getframe().f_code.co_name,
+            param[18]["testname"]))
         self.index = Hunan_pages.Hunan_pages_Assessment(driver)
         self.index.F5()
         self.index.assessment_bt_click()
@@ -416,7 +453,9 @@ class Hunan_Assessment_test(unittest.TestCase):
         )
 
     def test_019_Zero_Zone_month(self):
-        logger.info("开始用例： {0}".format(sys._getframe().f_code.co_name))
+        logger.info("开始用例： {0} , 参数选择： {1}".format(
+            sys._getframe().f_code.co_name,
+            param[19]["testname"]))
         self.index = Hunan_pages.Hunan_pages_Assessment(driver)
         self.index.F5()
         self.index.assessment_bt_click()
@@ -434,7 +473,9 @@ class Hunan_Assessment_test(unittest.TestCase):
         )
 
     def test_020_Zero_Zone_year(self):
-        logger.info("开始用例： {0}".format(sys._getframe().f_code.co_name))
+        logger.info("开始用例： {0} , 参数选择： {1}".format(
+            sys._getframe().f_code.co_name,
+            param[20]["testname"]))
         self.index = Hunan_pages.Hunan_pages_Assessment(driver)
         self.index.F5()
         self.index.assessment_bt_click()
@@ -442,7 +483,7 @@ class Hunan_Assessment_test(unittest.TestCase):
         self.index.zero_click()
         self.index.zerozone_type_choose(param[20]["assessmenttype"])
         self.index.zerozone_zone_input(param[20]["zone"])
-        self.index.zerozone_month_time_input(param[20]["btime"])
+        self.index.zerozone_year_time_input(param[20]["btime"])
         self.index.zerozone_cartype_click()
         self.index.zerozone_cartype_check(param[20]["cartype"])
         self.index.zerozone_select_bt_click()
@@ -452,7 +493,9 @@ class Hunan_Assessment_test(unittest.TestCase):
         )
 
     def test_021_Zero_Zone_day(self):
-        logger.info("开始用例： {0}".format(sys._getframe().f_code.co_name))
+        logger.info("开始用例： {0} , 参数选择： {1}".format(
+            sys._getframe().f_code.co_name,
+            param[21]["testname"]))
         self.index = Hunan_pages.Hunan_pages_Assessment(driver)
         self.index.F5()
         self.index.assessment_bt_click()
@@ -471,17 +514,20 @@ class Hunan_Assessment_test(unittest.TestCase):
         )
 
     def test_022_Zero_Company_month(self):
-        logger.info("开始用例： {0}".format(sys._getframe().f_code.co_name))
+        logger.info("开始用例： {0} , 参数选择： {1}".format(
+            sys._getframe().f_code.co_name,
+            param[22]["testname"]))
         self.index = Hunan_pages.Hunan_pages_Assessment(driver)
         self.index.F5()
         self.index.assessment_bt_click()
         self.index.sleep(3)
         self.index.zero_click()
-        self.index.zerocompany_type_choose(param[20]["assessmenttype"])
-        self.index.zerocompany_zone_input(param[20]["zone"])
-        self.index.zerocompany_month_time_input(param[20]["btime"])
+        self.index.zerocompany_click()
+        self.index.zerocompany_type_choose(param[22]["assessmenttype"])
+        self.index.zerocompany_zone_input(param[22]["zone"])
+        self.index.zerocompany_month_time_input(param[22]["btime"])
         self.index.zerocompany_cartype_click()
-        self.index.zerocompany_cartype_check(param[20]["cartype"])
+        self.index.zerocompany_cartype_check(param[22]["cartype"])
         self.index.zerocompany_select_bt_click()
         self.index.assert_text(
             text="合计",
@@ -489,35 +535,43 @@ class Hunan_Assessment_test(unittest.TestCase):
         )
 
     def test_023_Zero_Company_year(self):
-        logger.info("开始用例： {0}".format(sys._getframe().f_code.co_name))
+        logger.info("开始用例： {0} , 参数选择： {1}".format(
+            sys._getframe().f_code.co_name,
+            param[23]["testname"]))
         self.index = Hunan_pages.Hunan_pages_Assessment(driver)
         self.index.F5()
         self.index.assessment_bt_click()
         self.index.sleep(3)
         self.index.zero_click()
-        self.index.zerocompany_type_choose(param[20]["assessmenttype"])
-        self.index.zerocompany_zone_input(param[20]["zone"])
-        self.index.zerocompany_month_time_input(param[20]["btime"])
+        self.index.zerocompany_click()
+        self.index.zerocompany_type_choose(param[23]["assessmenttype"])
+        self.index.zerocompany_zone_input(param[23]["zone"])
+        self.index.zerocompany_year_time_input(param[23]["btime"])
         self.index.zerocompany_cartype_click()
-        self.index.zerocompany_cartype_check(param[20]["cartype"])
+        self.index.zerocompany_cartype_check(param[23]["cartype"])
         self.index.zerocompany_select_bt_click()
         self.index.assert_text(
             text="合计",
-            css="css->tfoot > tr"
+            css="css->tfoot > tr",
+            sec=30
         )
 
     def test_024_Zero_Company_day(self):
-        logger.info("开始用例： {0}".format(sys._getframe().f_code.co_name))
+        logger.info("开始用例： {0} , 参数选择： {1}".format(
+            sys._getframe().f_code.co_name,
+            param[24]["testname"]))
         self.index = Hunan_pages.Hunan_pages_Assessment(driver)
         self.index.F5()
         self.index.assessment_bt_click()
         self.index.sleep(3)
         self.index.zero_click()
-        self.index.zerocompany_type_choose(param[20]["assessmenttype"])
-        self.index.zerocompany_zone_input(param[20]["zone"])
-        self.index.zerocompany_month_time_input(param[20]["btime"])
+        self.index.zerocompany_click()
+        self.index.zerocompany_type_choose(param[24]["assessmenttype"])
+        self.index.zerocompany_zone_input(param[24]["zone"])
+        self.index.zerocompany_btime_input(param[24]["btime"])
+        self.index.zerocompany_etime_input(param[24]["etime"])
         self.index.zerocompany_cartype_click()
-        self.index.zerocompany_cartype_check(param[20]["cartype"])
+        self.index.zerocompany_cartype_check(param[24]["cartype"])
         self.index.zerocompany_select_bt_click()
         self.index.assert_text(
             text="合计",

@@ -26,6 +26,7 @@ class Hunan_pages_BaseInfo(pyselenium):
     """
 
     def move_settings(self):
+        """移动到设置图标"""
         self.move_to_element("css->#home-down-icon-level")
 
     def baseinfo_click(self):
@@ -119,6 +120,7 @@ class Hunan_pages_Statistic(pyselenium):
                                btime)
 
     def installzonedata_etime_input(self, etime):
+        """结束时间"""
         self.clear_input_enter("css->#report_vehicleinstall_table_div_tabs0_content_panel0_form0_datePeriod0_date1_txt",
                                etime)
 
@@ -200,7 +202,8 @@ class Hunan_pages_Assessment(pyselenium):
         """选择企业考核排名"""
         self.js(
             "document.querySelector('#checkmanage-index > div > div.check-manage-title > ul > li:nth-child(2) > ul').style.display='block'")
-        self.click("xpath->//span[contains(text(),'企业考核排名')]")
+        self.sleep(1)
+        self.click("xpath->//li[@data-control='checkManage_companyRank']/a/span[contains(text(),'企业考核排名')]")
 
     def companyassessment_company_input(self, company):
         """输入企业名称"""
@@ -264,6 +267,7 @@ class Hunan_pages_Assessment(pyselenium):
         """选择服务商考核"""
         self.js(
             "document.querySelector('#checkmanage-index > div > div.check-manage-title > ul > li:nth-child(3) > ul').style.display='block'")
+        self.sleep(1)
         self.click("xpath->//li[@data-control='checkManage_providerRank']/a/span[contains(text(),'服务商考核排名')]")
 
     def platformassessment_platform_input(self, platform):
@@ -844,7 +848,7 @@ class Hunan_pages_Assessment(pyselenium):
         self.js(
             """document.querySelector("li[data-control='checkManage_transport'] > ul").style.display='block'""")
         self.sleep(1)
-        self.click("xpath->//*[@data-control='checkManage_transport']/ul/li/a/span[contains(text(),'交通厅隐患清零')]")
+        self.click("xpath->//li[@data-control='checkManage_transport']/ul/li/a/span[contains(text(),'交通厅隐患清零')]")
 
     def zerozone_zone_input(self, zone):
         self.clear_input("css->#report_transportCheckRank_table_div_tabs0_content_panel0_form0_text0_show", zone)
@@ -902,11 +906,15 @@ class Hunan_pages_Assessment(pyselenium):
 
     # --------------------------------------------------------- 交通隐患清零企业 ----------------------------------------------------------------
 
-    def zerocompany_company_input(self,company):
-        self.input("css->#report_transportCheckRank_table_div_tabs0_content_panel1_form0_text0_show",company)
-        if company !='':
-            self.click( "xpath->//ul[@class='ui-autocomplete ui-front ui-menu ui-widget ui-widget-content']/li[contains(text(),'{0}')]".format(
-                company))
+    def zerocompany_click(self):
+        self.click("css->#report_transportCheckRank_table_div_tabs0_ul_nav1")
+
+    def zerocompany_company_input(self, company):
+        self.input("css->#report_transportCheckRank_table_div_tabs0_content_panel1_form0_text0_show", company)
+        if company != '':
+            self.click(
+                "xpath->//ul[@class='ui-autocomplete ui-front ui-menu ui-widget ui-widget-content']/li[contains(text(),'{0}')]".format(
+                    company))
 
     def zerocompany_zone_input(self, zone):
         """输入地区"""
@@ -917,9 +925,12 @@ class Hunan_pages_Assessment(pyselenium):
 
     def zerocompany_type_choose(self, assessmenttype):
         """选择考核类型"""
-        self.click("css->#report_transportCheckRank_table_div_tabs0_content_panel1_form0_select1 > input")
+        self.click("css->#report_transportCheckRank_table_div_tabs0_content_panel1_form0_select0 > input")
+        # self.click(
+        #     "xpath->//div[@id='report_transportCheckRank_table_div_tabs0_content_panel1_form0_select0']/ul/li[contains(text(),'{0}')]".format(
+        #         assessmenttype))
         self.click(
-            "xpath->//div[@id='report_transportCheckRank_table_div_tabs0_content_panel1_form0_select1']/ul/li[contains(text(),'{0}')]".format(
+            "xpath->//*[@id='report_transportCheckRank_table_div_tabs0_content_panel1_form0_select0']/ul/li[contains(text(),'{0}')]".format(
                 assessmenttype))
 
     def zerocompany_month_time_input(self, time):
@@ -956,7 +967,7 @@ class Hunan_pages_Assessment(pyselenium):
         """选择车辆状态"""
         self.click("css->#report_transportCheckRank_table_div_tabs0_content_panel1_form0_select2 > input")
         self.click(
-            "xpath->//div[@id='report_transportCheckRank_table_div_tabs0_content_panel0_form0_select2']/ul/li[contains(text(),'{0}')]".format(
+            "xpath->//div[@id='report_transportCheckRank_table_div_tabs0_content_panel0_form0_select2']/ul/li/span[contains(text(),'{0}')]".format(
                 carstate))
 
     def zerocompany_select_bt_click(self):
